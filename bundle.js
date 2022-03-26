@@ -569,7 +569,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SELECTOR": () => (/* binding */ SELECTOR),
 /* harmony export */   "COINS": () => (/* binding */ COINS),
-/* harmony export */   "URL": () => (/* binding */ URL),
 /* harmony export */   "CUSTOM_EVENT": () => (/* binding */ CUSTOM_EVENT),
 /* harmony export */   "ERROR_MESSAGE": () => (/* binding */ ERROR_MESSAGE),
 /* harmony export */   "CONFIRM_MESSAGE": () => (/* binding */ CONFIRM_MESSAGE),
@@ -621,11 +620,6 @@ var COINS = {
     hundred: 100,
     fifty: 50,
     ten: 10
-};
-var URL = {
-    MANAGE_ITEM: 'mangeItem',
-    CHARGE_MONEY: 'chargeMoney',
-    PURCHASE_ITEM: 'purchaseItem'
 };
 var CUSTOM_EVENT = {
     ROUTE_CHANGE: 'ROUTE_CHANGE',
@@ -722,34 +716,35 @@ var AppController = /** @class */ (function () {
     AppController.prototype.handleRouteChange = function (event) {
         var $navButton = event.detail.$navButton;
         if ($navButton.id === _constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_MANGE_TAB) {
-            window.history.pushState(null, null, _constants_constants__WEBPACK_IMPORTED_MODULE_5__.URL.MANAGE_ITEM);
+            window.history.pushState(null, null, '#mangeItem');
         }
         if ($navButton.id === _constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.MONEY_CHARGE_TAB) {
-            window.history.pushState(null, null, _constants_constants__WEBPACK_IMPORTED_MODULE_5__.URL.CHARGE_MONEY);
+            window.history.pushState(null, null, '#chargeMoney');
         }
         if ($navButton.id === _constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_PURCHASE_TAB) {
-            window.history.pushState(null, null, _constants_constants__WEBPACK_IMPORTED_MODULE_5__.URL.PURCHASE_ITEM);
+            window.history.pushState(null, null, '#purchaseItem');
         }
         this.route();
     };
     AppController.prototype.route = function () {
-        var pathname = window.location.pathname;
-        if (pathname === '/') {
+        var hash = window.location.hash;
+        console.log(hash);
+        if (hash === '') {
             this.manageItemController.loadPage();
             this.appView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_MANGE_TAB);
             return;
         }
-        if (pathname === "/".concat(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.URL.MANAGE_ITEM)) {
+        if (hash === '#mangeItem') {
             this.manageItemController.loadPage();
             this.appView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_MANGE_TAB);
             return;
         }
-        if (pathname === "/".concat(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.URL.CHARGE_MONEY)) {
+        if (hash === '#chargeMoney') {
             this.chargeMoneyController.loadPage();
             this.appView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.MONEY_CHARGE_TAB);
             return;
         }
-        if (pathname === "/".concat(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.URL.PURCHASE_ITEM)) {
+        if (hash === '#purchaseItem') {
             this.purchaseItemController.render();
             this.appView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_PURCHASE_TAB);
         }
