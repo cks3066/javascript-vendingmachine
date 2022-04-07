@@ -729,7 +729,8 @@ var URL_HASH = {
     CHARGE_MONEY: '#chargeMoney',
     PURCHASE_ITEM: '#purchaseItem',
     LOG_IN: '#login',
-    SIGN_UP: '#signup'
+    SIGN_UP: '#signup',
+    CHANGE_USER_INFO: '#changeUserInfo'
 };
 
 
@@ -823,8 +824,10 @@ var ChargeMoneyController = /** @class */ (function () {
     };
     ChargeMoneyController.prototype.handleChargeMoney = function (event) {
         var inputMoney = event.detail.inputMoney;
+        var isLogin = sessionStorage.getItem('isLogIn') === 'true' ? true : false;
         this.vendingMachine.chargeOwnMoney(inputMoney);
         this.chargeMoneyView.repaintCoinsTable(this.vendingMachine.getCoins());
+        this.loadPage(isLogin);
     };
     ChargeMoneyController.prototype.loadPage = function (isLogin) {
         var coins = this.vendingMachine.getCoins();
@@ -1013,6 +1016,7 @@ var PurchaseItemController = /** @class */ (function () {
     PurchaseItemController.prototype.handlePurchaseMoneyInput = function (event) {
         var inputMoney = event.detail.inputMoney;
         this.vendingMachine.chargePurchaseInputMoney(inputMoney);
+        this.loadPage();
     };
     PurchaseItemController.prototype.loadPage = function () {
         var items = this.vendingMachine.getItems();
@@ -1166,8 +1170,8 @@ var Router = /** @class */ (function () {
             (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.$)('.nav-container').classList.add('display-none');
         }
         if (!hash) {
-            this.$header.classList.remove('display-none');
-            this.manageItemController.loadPage(isLogin);
+            this.$header.classList.add('display-none');
+            this.logInController.loadPage(isLogin);
             this.mainView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.SELECTOR.ID_STRING.ITEM_MANGE_TAB);
             return;
         }
@@ -1198,7 +1202,7 @@ var Router = /** @class */ (function () {
             this.$header.classList.add('display-none');
             this.signUpController.loadPage(isLogin);
         }
-        if (hash === '#changeUserInfo') {
+        if (hash === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.CHANGE_USER_INFO) {
             this.$header.classList.add('display-none');
             this.changeUserInfoController.loadPage(isLogin);
         }
@@ -1743,8 +1747,8 @@ var ChangeUserInfoView = /** @class */ (function () {
         this.$content = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.ID.CONTENT);
     }
     ChangeUserInfoView.prototype.handleSubmitChangeForm = function (event) {
+        event.preventDefault();
         try {
-            event.preventDefault();
             var targetId = event.target.id;
             var name_1 = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#change-name-input').value;
             var password = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#change-password-input').value;
@@ -1794,7 +1798,8 @@ var ChargeMoneyView = /** @class */ (function () {
     ChargeMoneyView.prototype.bindEvents = function () {
         (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.ID.CHARGE_MONEY_FORM).addEventListener('submit', this.handleSubmitChargeMoney.bind(this));
     };
-    ChargeMoneyView.prototype.handleSubmitChargeMoney = function () {
+    ChargeMoneyView.prototype.handleSubmitChargeMoney = function (event) {
+        event.preventDefault();
         try {
             var inputMoney = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.CLASS.CHARGE_MONEY_INPUT).valueAsNumber;
             (0,_validates_validates__WEBPACK_IMPORTED_MODULE_2__.validateInputOwnMoney)(inputMoney);
@@ -1849,8 +1854,8 @@ var LogInView = /** @class */ (function () {
         this.$content = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.ID.CONTENT);
     }
     LogInView.prototype.handleSubmitLogInForm = function (event) {
+        event.preventDefault();
         try {
-            event.preventDefault();
             var targetId = event.target.id;
             var email = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#login-email-input').value;
             var password = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#login-password-input').value;
@@ -2136,7 +2141,8 @@ var PurchaseItemView = /** @class */ (function () {
     PurchaseItemView.prototype.bindReturnMoneyClickEvent = function () {
         (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('.return-money-button').addEventListener('click', this.handleClickReturnMoneyButton.bind(this));
     };
-    PurchaseItemView.prototype.handleSubmitPurchaseMoneyInput = function () {
+    PurchaseItemView.prototype.handleSubmitPurchaseMoneyInput = function (event) {
+        event.preventDefault();
         try {
             var inputMoney = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.CLASS.PURCHASE_ITEM_INPUT).valueAsNumber;
             (0,_validates_validates__WEBPACK_IMPORTED_MODULE_3__.validateInputPurchaseMoney)(inputMoney);
@@ -2187,8 +2193,8 @@ var SignUpView = /** @class */ (function () {
         this.$content = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.ID.CONTENT);
     }
     SignUpView.prototype.handleSubmitSignUpForm = function (event) {
+        event.preventDefault();
         try {
-            event.preventDefault();
             var targetId = event.target.id;
             var email = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#signup-email-input').value.trim();
             var name_1 = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#signup-name-input').value.trim();
@@ -2201,7 +2207,6 @@ var SignUpView = /** @class */ (function () {
         }
     };
     SignUpView.prototype.render = function (isLogin) {
-        console.log('SignUpView Render');
         this.$content.replaceChildren();
         this.$content.insertAdjacentHTML('beforeend', (0,_templates_signUpTemplate__WEBPACK_IMPORTED_MODULE_2__.signUpTemplate)(isLogin));
         if (!isLogin) {
