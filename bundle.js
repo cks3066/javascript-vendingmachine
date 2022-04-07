@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#app {\n  display: flex;\n  flex-direction: column;\n  margin: 32px 0;\n  min-height: 675px;\n  width: 600px;\n  align-items: center;\n}\n\n.nav-container {\n  margin-top: 32px;\n}\n\n.nav-button {\n  width: 200px;\n  background: var(--color-nav-button-bg);\n  width: 118px;\n  height: 36px;\n  border: none;\n  border-radius: 4px;\n  margin: 0px 4px;\n}\n\n.nav-button.nav-button-clicked {\n  background-color: var(--color-nav-button-clicked);\n}\n\n.input-container {\n  margin-top: 52px;\n}\n\n.input-container > form {\n  display: flex;\n  flex-direction: column;\n}\n\n.input-container > form > label {\n  font-size: 16px;\n  margin-bottom: 4px;\n}\n\n.add-item-input {\n  width: 120px;\n  height: 36px;\n}\n\n.submit-button {\n  background-color: var(--color-submit-button-bg);\n  padding: 6px;\n  width: 56px;\n  height: 36px;\n  color: var(--color-submit-button-font-color);\n  font-weight: 700;\n  font-size: 14px;\n  margin-left: 16px;\n}\n\n.submit-button:hover {\n  background-color: var(--color-submit-button-hover);\n}\n\n.submit-button:active {\n  background-color: var(--color-submit-button-active);\n}\n\n.table-container {\n  margin-top: 48px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.table-container > table {\n  margin-top: 16px;\n}\n\n.table-container > table td {\n  text-align: center;\n}\n\n.item-table-change-button,\n.item-table-delete-button {\n  width: 50px;\n  height: 32px;\n}\n\n.item-table-purchase-button {\n  width: 100px;\n  height: 32px;\n}\n\n.table-container > table tr {\n  display: grid;\n  align-items: center;\n  grid-gap: 0;\n  border-bottom: 1px solid #dcdcdc;\n}\n\n.item-table {\n  width: 480px;\n}\n\n.item-table tr {\n  grid-template-columns: repeat(4, 1fr);\n  grid-template-rows: 45px;\n}\n\n.coin-table {\n  width: 240px;\n}\n\n.coin-table tr {\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: 45px;\n}\n\n.table-container > table tr:first-child {\n  border-top: 1px solid #dcdcdc;\n}\n\n.charge-money-input {\n  width: 300px;\n  height: 36px;\n}\n\n.input-container p {\n  margin-top: 16px;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.display-none {\n  display: none;\n}\n\n.return-money-button {\n  width: 100px;\n  height: 32px;\n  margin-top: 24px;\n}\n\n.table-item-input {\n  width: 90px;\n  text-align: center;\n}\n\n.item-table-confirm-button {\n  width: 100px;\n  height: 32px;\n}\n", "",{"version":3,"sources":["webpack://./src/css/app.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;EACtB,cAAc;EACd,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,sCAAsC;EACtC,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,eAAe;AACjB;;AAEA;EACE,iDAAiD;AACnD;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,eAAe;EACf,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,+CAA+C;EAC/C,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,4CAA4C;EAC5C,gBAAgB;EAChB,eAAe;EACf,iBAAiB;AACnB;;AAEA;EACE,kDAAkD;AACpD;;AAEA;EACE,mDAAmD;AACrD;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;;EAEE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,WAAW;EACX,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,qCAAqC;EACrC,wBAAwB;AAC1B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,qCAAqC;EACrC,wBAAwB;AAC1B;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,YAAY;AACd","sourcesContent":["#app {\n  display: flex;\n  flex-direction: column;\n  margin: 32px 0;\n  min-height: 675px;\n  width: 600px;\n  align-items: center;\n}\n\n.nav-container {\n  margin-top: 32px;\n}\n\n.nav-button {\n  width: 200px;\n  background: var(--color-nav-button-bg);\n  width: 118px;\n  height: 36px;\n  border: none;\n  border-radius: 4px;\n  margin: 0px 4px;\n}\n\n.nav-button.nav-button-clicked {\n  background-color: var(--color-nav-button-clicked);\n}\n\n.input-container {\n  margin-top: 52px;\n}\n\n.input-container > form {\n  display: flex;\n  flex-direction: column;\n}\n\n.input-container > form > label {\n  font-size: 16px;\n  margin-bottom: 4px;\n}\n\n.add-item-input {\n  width: 120px;\n  height: 36px;\n}\n\n.submit-button {\n  background-color: var(--color-submit-button-bg);\n  padding: 6px;\n  width: 56px;\n  height: 36px;\n  color: var(--color-submit-button-font-color);\n  font-weight: 700;\n  font-size: 14px;\n  margin-left: 16px;\n}\n\n.submit-button:hover {\n  background-color: var(--color-submit-button-hover);\n}\n\n.submit-button:active {\n  background-color: var(--color-submit-button-active);\n}\n\n.table-container {\n  margin-top: 48px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.table-container > table {\n  margin-top: 16px;\n}\n\n.table-container > table td {\n  text-align: center;\n}\n\n.item-table-change-button,\n.item-table-delete-button {\n  width: 50px;\n  height: 32px;\n}\n\n.item-table-purchase-button {\n  width: 100px;\n  height: 32px;\n}\n\n.table-container > table tr {\n  display: grid;\n  align-items: center;\n  grid-gap: 0;\n  border-bottom: 1px solid #dcdcdc;\n}\n\n.item-table {\n  width: 480px;\n}\n\n.item-table tr {\n  grid-template-columns: repeat(4, 1fr);\n  grid-template-rows: 45px;\n}\n\n.coin-table {\n  width: 240px;\n}\n\n.coin-table tr {\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: 45px;\n}\n\n.table-container > table tr:first-child {\n  border-top: 1px solid #dcdcdc;\n}\n\n.charge-money-input {\n  width: 300px;\n  height: 36px;\n}\n\n.input-container p {\n  margin-top: 16px;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.display-none {\n  display: none;\n}\n\n.return-money-button {\n  width: 100px;\n  height: 32px;\n  margin-top: 24px;\n}\n\n.table-item-input {\n  width: 90px;\n  text-align: center;\n}\n\n.item-table-confirm-button {\n  width: 100px;\n  height: 32px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#app {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  width: 600px;\n  align-items: center;\n  background: white;\n  padding: 12px 12px 36px 12px;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  margin-top: 32px;\n}\n\n.nav-container {\n  margin-top: 32px;\n}\n\n.nav-button {\n  width: 200px;\n  background: var(--color-nav-button-bg);\n  width: 118px;\n  height: 36px;\n  border: none;\n  border-radius: 4px;\n  margin: 0 4px;\n}\n\n.nav-button.nav-button-clicked {\n  background-color: var(--color-nav-button-clicked);\n}\n\n.input-container {\n  margin-top: 52px;\n}\n\n.input-container > form {\n  display: flex;\n  flex-direction: column;\n}\n\n.add-item-input {\n  width: 120px;\n  height: 36px;\n}\n\n.submit-button {\n  background-color: var(--color-submit-button-bg);\n  padding: 6px;\n  width: 56px;\n  height: 36px;\n  color: var(--color-submit-button-font-color);\n  font-weight: 700;\n  font-size: 14px;\n  margin-left: 16px;\n}\n\n.submit-button:hover {\n  background-color: var(--color-submit-button-hover);\n}\n\n.submit-button:active {\n  background-color: var(--color-submit-button-active);\n}\n\n.table-container {\n  margin-top: 48px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.table-container > table {\n  margin-top: 16px;\n}\n\n.table-container > table td {\n  text-align: center;\n}\n\n.item-table-change-button,\n.item-table-delete-button {\n  width: 50px;\n  height: 32px;\n}\n\n.item-table-purchase-button {\n  width: 100px;\n  height: 32px;\n}\n\n.table-container > table tr {\n  display: grid;\n  align-items: center;\n  grid-gap: 0;\n  border-bottom: 1px solid #dcdcdc;\n}\n\n.item-table {\n  width: 480px;\n}\n\n.item-table tr {\n  grid-template-columns: repeat(4, 1fr);\n  grid-template-rows: 45px;\n}\n\n.coin-table {\n  width: 240px;\n}\n\n.coin-table tr {\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: 45px;\n}\n\n.table-container > table tr:first-child {\n  border-top: 1px solid #dcdcdc;\n}\n\n.charge-money-input {\n  width: 300px;\n  height: 36px;\n}\n\n.input-container p {\n  margin-top: 16px;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.display-none {\n  display: none;\n}\n\n.return-money-button {\n  width: 100px;\n  height: 32px;\n  margin-top: 24px;\n}\n\n.table-item-input {\n  width: 90px;\n  text-align: center;\n}\n\n.item-table-confirm-button {\n  width: 100px;\n  height: 32px;\n}\n\n#snackbar {\n  visibility: hidden;\n  min-width: 250px;\n  margin-left: -125px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 2px;\n  padding: 16px;\n  position: fixed;\n  z-index: 1;\n  left: 50%;\n  bottom: 5%;\n}\n\n.show {\n  visibility: visible !important; /* Show the snackbar */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 1.7s;\n  animation: fadein 0.5s, fadeout 0.5s 1.7s;\n}\n\n@-webkit-keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 5%;\n    opacity: 1;\n  }\n}\n\n@keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 5%;\n    opacity: 1;\n  }\n}\n\n@-webkit-keyframes fadeout {\n  from {\n    bottom: 5%;\n    opacity: 1;\n  }\n  to {\n    bottom: 0;\n    opacity: 0;\n  }\n}\n\n@keyframes fadeout {\n  from {\n    bottom: 5%;\n    opacity: 1;\n  }\n  to {\n    bottom: 0;\n    opacity: 0;\n  }\n}\n\n#login-form,\n#signup-form,\n#change-form {\n  display: flex;\n  flex-direction: column;\n  margin-top: 46px;\n}\n\n#login-form input,\n#signup-form input,\n#change-form input {\n  width: 300px;\n  height: 36px;\n  margin-bottom: 16px;\n}\n\n#login-form button,\n#signup-form button,\n#change-form button {\n  background: var(--color-submit-button-bg);\n  padding: 6px 6px 6px 8px;\n  color: white;\n  font-weight: 700;\n  font-size: 14px;\n  height: 36px;\n  margin-top: 14px;\n}\n\n#header-button-container {\n  align-self: flex-end;\n}\n\n#login-button {\n  width: 117px;\n  height: 36px;\n}\n\n.login-to-signup {\n  margin-top: 14px;\n  align-self: start;\n}\n\n#go-to-signup {\n  cursor: pointer;\n  color: #3581d7;\n}\n\n#user-badge {\n  border-radius: 50%;\n  background-color: #d6f4f8;\n  width: 40px;\n  height: 40px;\n  line-height: 40px;\n  text-align: center;\n  cursor: pointer;\n}\n\n#user-badge:hover {\n  background-color: #b3ebf2;\n}\n\n.permission-info {\n  margin-top: 50px;\n}\n\n#user-container {\n  position: relative;\n}\n\n#user-dropbox {\n  position: absolute;\n  top: 50px;\n  left: -15px;\n  width: 60px;\n  padding: 5px;\n  background-color: var(--color-nav-button-bg);\n  text-align: center;\n  font-size: 12px;\n  border-radius: 5px;\n}\n\n#user-dropbox li {\n  padding: 4px 0;\n}\n\n#user-dropbox li:hover {\n  background-color: var(--color-button-hover);\n  cursor: pointer;\n}\n\n#user-dropbox::before {\n  content: '';\n  position: absolute;\n  border-bottom: 10px solid var(--color-nav-button-bg);\n  border-right: 5px solid transparent;\n  border-left: 5px solid transparent;\n  top: -8px;\n}\n", "",{"version":3,"sources":["webpack://./src/css/app.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,iBAAiB;EACjB,4BAA4B;AAC9B;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,WAAW;EACX,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,sCAAsC;EACtC,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,aAAa;AACf;;AAEA;EACE,iDAAiD;AACnD;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,+CAA+C;EAC/C,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,4CAA4C;EAC5C,gBAAgB;EAChB,eAAe;EACf,iBAAiB;AACnB;;AAEA;EACE,kDAAkD;AACpD;;AAEA;EACE,mDAAmD;AACrD;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;;EAEE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,WAAW;EACX,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,qCAAqC;EACrC,wBAAwB;AAC1B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,qCAAqC;EACrC,wBAAwB;AAC1B;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,sBAAsB;EACtB,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,aAAa;EACb,eAAe;EACf,UAAU;EACV,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,8BAA8B,EAAE,sBAAsB;EACtD,iDAAiD;EACjD,yCAAyC;AAC3C;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,UAAU;IACV,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,UAAU;IACV,UAAU;EACZ;AACF;;AAEA;EACE;IACE,UAAU;IACV,UAAU;EACZ;EACA;IACE,SAAS;IACT,UAAU;EACZ;AACF;;AAEA;EACE;IACE,UAAU;IACV,UAAU;EACZ;EACA;IACE,SAAS;IACT,UAAU;EACZ;AACF;;AAEA;;;EAGE,aAAa;EACb,sBAAsB;EACtB,gBAAgB;AAClB;;AAEA;;;EAGE,YAAY;EACZ,YAAY;EACZ,mBAAmB;AACrB;;AAEA;;;EAGE,yCAAyC;EACzC,wBAAwB;EACxB,YAAY;EACZ,gBAAgB;EAChB,eAAe;EACf,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,oBAAoB;AACtB;;AAEA;EACE,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;AACnB;;AAEA;EACE,eAAe;EACf,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,yBAAyB;EACzB,WAAW;EACX,YAAY;EACZ,iBAAiB;EACjB,kBAAkB;EAClB,eAAe;AACjB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,SAAS;EACT,WAAW;EACX,WAAW;EACX,YAAY;EACZ,4CAA4C;EAC5C,kBAAkB;EAClB,eAAe;EACf,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,2CAA2C;EAC3C,eAAe;AACjB;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,oDAAoD;EACpD,mCAAmC;EACnC,kCAAkC;EAClC,SAAS;AACX","sourcesContent":["#app {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  width: 600px;\n  align-items: center;\n  background: white;\n  padding: 12px 12px 36px 12px;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  margin-top: 32px;\n}\n\n.nav-container {\n  margin-top: 32px;\n}\n\n.nav-button {\n  width: 200px;\n  background: var(--color-nav-button-bg);\n  width: 118px;\n  height: 36px;\n  border: none;\n  border-radius: 4px;\n  margin: 0 4px;\n}\n\n.nav-button.nav-button-clicked {\n  background-color: var(--color-nav-button-clicked);\n}\n\n.input-container {\n  margin-top: 52px;\n}\n\n.input-container > form {\n  display: flex;\n  flex-direction: column;\n}\n\n.add-item-input {\n  width: 120px;\n  height: 36px;\n}\n\n.submit-button {\n  background-color: var(--color-submit-button-bg);\n  padding: 6px;\n  width: 56px;\n  height: 36px;\n  color: var(--color-submit-button-font-color);\n  font-weight: 700;\n  font-size: 14px;\n  margin-left: 16px;\n}\n\n.submit-button:hover {\n  background-color: var(--color-submit-button-hover);\n}\n\n.submit-button:active {\n  background-color: var(--color-submit-button-active);\n}\n\n.table-container {\n  margin-top: 48px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.table-container > table {\n  margin-top: 16px;\n}\n\n.table-container > table td {\n  text-align: center;\n}\n\n.item-table-change-button,\n.item-table-delete-button {\n  width: 50px;\n  height: 32px;\n}\n\n.item-table-purchase-button {\n  width: 100px;\n  height: 32px;\n}\n\n.table-container > table tr {\n  display: grid;\n  align-items: center;\n  grid-gap: 0;\n  border-bottom: 1px solid #dcdcdc;\n}\n\n.item-table {\n  width: 480px;\n}\n\n.item-table tr {\n  grid-template-columns: repeat(4, 1fr);\n  grid-template-rows: 45px;\n}\n\n.coin-table {\n  width: 240px;\n}\n\n.coin-table tr {\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: 45px;\n}\n\n.table-container > table tr:first-child {\n  border-top: 1px solid #dcdcdc;\n}\n\n.charge-money-input {\n  width: 300px;\n  height: 36px;\n}\n\n.input-container p {\n  margin-top: 16px;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.display-none {\n  display: none;\n}\n\n.return-money-button {\n  width: 100px;\n  height: 32px;\n  margin-top: 24px;\n}\n\n.table-item-input {\n  width: 90px;\n  text-align: center;\n}\n\n.item-table-confirm-button {\n  width: 100px;\n  height: 32px;\n}\n\n#snackbar {\n  visibility: hidden;\n  min-width: 250px;\n  margin-left: -125px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 2px;\n  padding: 16px;\n  position: fixed;\n  z-index: 1;\n  left: 50%;\n  bottom: 5%;\n}\n\n.show {\n  visibility: visible !important; /* Show the snackbar */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 1.7s;\n  animation: fadein 0.5s, fadeout 0.5s 1.7s;\n}\n\n@-webkit-keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 5%;\n    opacity: 1;\n  }\n}\n\n@keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 5%;\n    opacity: 1;\n  }\n}\n\n@-webkit-keyframes fadeout {\n  from {\n    bottom: 5%;\n    opacity: 1;\n  }\n  to {\n    bottom: 0;\n    opacity: 0;\n  }\n}\n\n@keyframes fadeout {\n  from {\n    bottom: 5%;\n    opacity: 1;\n  }\n  to {\n    bottom: 0;\n    opacity: 0;\n  }\n}\n\n#login-form,\n#signup-form,\n#change-form {\n  display: flex;\n  flex-direction: column;\n  margin-top: 46px;\n}\n\n#login-form input,\n#signup-form input,\n#change-form input {\n  width: 300px;\n  height: 36px;\n  margin-bottom: 16px;\n}\n\n#login-form button,\n#signup-form button,\n#change-form button {\n  background: var(--color-submit-button-bg);\n  padding: 6px 6px 6px 8px;\n  color: white;\n  font-weight: 700;\n  font-size: 14px;\n  height: 36px;\n  margin-top: 14px;\n}\n\n#header-button-container {\n  align-self: flex-end;\n}\n\n#login-button {\n  width: 117px;\n  height: 36px;\n}\n\n.login-to-signup {\n  margin-top: 14px;\n  align-self: start;\n}\n\n#go-to-signup {\n  cursor: pointer;\n  color: #3581d7;\n}\n\n#user-badge {\n  border-radius: 50%;\n  background-color: #d6f4f8;\n  width: 40px;\n  height: 40px;\n  line-height: 40px;\n  text-align: center;\n  cursor: pointer;\n}\n\n#user-badge:hover {\n  background-color: #b3ebf2;\n}\n\n.permission-info {\n  margin-top: 50px;\n}\n\n#user-container {\n  position: relative;\n}\n\n#user-dropbox {\n  position: absolute;\n  top: 50px;\n  left: -15px;\n  width: 60px;\n  padding: 5px;\n  background-color: var(--color-nav-button-bg);\n  text-align: center;\n  font-size: 12px;\n  border-radius: 5px;\n}\n\n#user-dropbox li {\n  padding: 4px 0;\n}\n\n#user-dropbox li:hover {\n  background-color: var(--color-button-hover);\n  cursor: pointer;\n}\n\n#user-dropbox::before {\n  content: '';\n  position: absolute;\n  border-bottom: 10px solid var(--color-nav-button-bg);\n  border-right: 5px solid transparent;\n  border-left: 5px solid transparent;\n  top: -8px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -50,7 +50,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_app_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --color-nav-button-bg: #f5f5f5;\n  --color-button-hover: #dfdfdf;\n  --color-nav-button-clicked: #00bcd429;\n  --color-submit-button-bg: #00bcd4;\n  --color-submit-button-hover: #00bbd4c2;\n  --color-submit-button-active: #00bbd4c2;\n  --color-submit-button-font-color: #ffffff;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nol,\nul {\n  list-style: none;\n}\n\nhtml,\nbody {\n  display: flex;\n  justify-content: center;\n  -webkit-font-smoothing: antialiased;\n}\n\ninput,\nbutton,\ntextarea,\nselect {\n  font: inherit;\n}\n\nbutton {\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n}\n\nbutton:hover {\n  background-color: var(--color-button-hover);\n}\n\ninput {\n  border: 1px solid #b4b4b4;\n  border-radius: 4px;\n  padding: 5px 9px;\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,8BAA8B;EAC9B,6BAA6B;EAC7B,qCAAqC;EACrC,iCAAiC;EACjC,sCAAsC;EACtC,uCAAuC;EACvC,yCAAyC;AAC3C;;AAEA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,gBAAgB;AAClB;;AAEA;;EAEE,aAAa;EACb,uBAAuB;EACvB,mCAAmC;AACrC;;AAEA;;;;EAIE,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,kBAAkB;EAClB,eAAe;AACjB;;AAEA;EACE,2CAA2C;AAC7C;;AAEA;EACE,yBAAyB;EACzB,kBAAkB;EAClB,gBAAgB;AAClB","sourcesContent":["@import './app.css';\n\n:root {\n  --color-nav-button-bg: #f5f5f5;\n  --color-button-hover: #dfdfdf;\n  --color-nav-button-clicked: #00bcd429;\n  --color-submit-button-bg: #00bcd4;\n  --color-submit-button-hover: #00bbd4c2;\n  --color-submit-button-active: #00bbd4c2;\n  --color-submit-button-font-color: #ffffff;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nol,\nul {\n  list-style: none;\n}\n\nhtml,\nbody {\n  display: flex;\n  justify-content: center;\n  -webkit-font-smoothing: antialiased;\n}\n\ninput,\nbutton,\ntextarea,\nselect {\n  font: inherit;\n}\n\nbutton {\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n}\n\nbutton:hover {\n  background-color: var(--color-button-hover);\n}\n\ninput {\n  border: 1px solid #b4b4b4;\n  border-radius: 4px;\n  padding: 5px 9px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --color-body-bg: rgb(230, 230, 230);\n  --color-nav-button-bg: #f5f5f5;\n  --color-button-hover: #dfdfdf;\n  --color-nav-button-clicked: #00bcd429;\n  --color-submit-button-bg: #00bcd4;\n  --color-submit-button-hover: #00bbd4c2;\n  --color-submit-button-active: #00bbd4c2;\n  --color-submit-button-font-color: #ffffff;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nol,\nul {\n  list-style: none;\n}\n\nhtml,\nbody {\n  display: flex;\n  justify-content: center;\n  -webkit-font-smoothing: antialiased;\n  background: var(--color-body-bg);\n}\n\ninput,\nbutton,\ntextarea,\nselect {\n  font: inherit;\n}\n\nbutton {\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n}\n\nbutton:hover {\n  background-color: var(--color-button-hover);\n}\n\ninput {\n  border: 1px solid #b4b4b4;\n  border-radius: 4px;\n  padding: 5px 9px;\n}\n\nlabel {\n  font-size: 16px;\n  margin-bottom: 4px;\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,mCAAmC;EACnC,8BAA8B;EAC9B,6BAA6B;EAC7B,qCAAqC;EACrC,iCAAiC;EACjC,sCAAsC;EACtC,uCAAuC;EACvC,yCAAyC;AAC3C;;AAEA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,gBAAgB;AAClB;;AAEA;;EAEE,aAAa;EACb,uBAAuB;EACvB,mCAAmC;EACnC,gCAAgC;AAClC;;AAEA;;;;EAIE,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,kBAAkB;EAClB,eAAe;AACjB;;AAEA;EACE,2CAA2C;AAC7C;;AAEA;EACE,yBAAyB;EACzB,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,kBAAkB;AACpB","sourcesContent":["@import './app.css';\n\n:root {\n  --color-body-bg: rgb(230, 230, 230);\n  --color-nav-button-bg: #f5f5f5;\n  --color-button-hover: #dfdfdf;\n  --color-nav-button-clicked: #00bcd429;\n  --color-submit-button-bg: #00bcd4;\n  --color-submit-button-hover: #00bbd4c2;\n  --color-submit-button-active: #00bbd4c2;\n  --color-submit-button-font-color: #ffffff;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nol,\nul {\n  list-style: none;\n}\n\nhtml,\nbody {\n  display: flex;\n  justify-content: center;\n  -webkit-font-smoothing: antialiased;\n  background: var(--color-body-bg);\n}\n\ninput,\nbutton,\ntextarea,\nselect {\n  font: inherit;\n}\n\nbutton {\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n}\n\nbutton:hover {\n  background-color: var(--color-button-hover);\n}\n\ninput {\n  border: 1px solid #b4b4b4;\n  border-radius: 4px;\n  padding: 5px 9px;\n}\n\nlabel {\n  font-size: 16px;\n  margin-bottom: 4px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -559,6 +559,61 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/js/AppManager.ts":
+/*!******************************!*\
+  !*** ./src/js/AppManager.ts ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _controllers_manageItemController__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./controllers/manageItemController */ "./src/js/controllers/manageItemController.ts");
+/* harmony import */ var _controllers_chargeMoneyController__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./controllers/chargeMoneyController */ "./src/js/controllers/chargeMoneyController.ts");
+/* harmony import */ var _controllers_purchaseItemController__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./controllers/purchaseItemController */ "./src/js/controllers/purchaseItemController.ts");
+/* harmony import */ var _controllers_logInController__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./controllers/logInController */ "./src/js/controllers/logInController.ts");
+/* harmony import */ var _controllers_signUpController__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./controllers/signUpController */ "./src/js/controllers/signUpController.ts");
+/* harmony import */ var _vendingMachine_vendingMachine__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./vendingMachine/vendingMachine */ "./src/js/vendingMachine/vendingMachine.ts");
+/* harmony import */ var _router_Router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./router/Router */ "./src/js/router/Router.ts");
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utils/common */ "./src/js/utils/common.ts");
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _templates_initialTemplate__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./templates/initialTemplate */ "./src/js/templates/initialTemplate.ts");
+/* harmony import */ var _controllers_changeUserInfoController__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./controllers/changeUserInfoController */ "./src/js/controllers/changeUserInfoController.ts");
+
+
+
+
+
+
+
+
+
+
+
+var AppManager = /** @class */ (function () {
+    function AppManager() {
+        this.initDom();
+        this.vendingMachine = new _vendingMachine_vendingMachine__WEBPACK_IMPORTED_MODULE_5__["default"]();
+        this.manageItemController = new _controllers_manageItemController__WEBPACK_IMPORTED_MODULE_0__["default"](this.vendingMachine);
+        this.chargeMoneyController = new _controllers_chargeMoneyController__WEBPACK_IMPORTED_MODULE_1__["default"](this.vendingMachine);
+        this.purchaseItemController = new _controllers_purchaseItemController__WEBPACK_IMPORTED_MODULE_2__["default"](this.vendingMachine);
+        this.logInController = new _controllers_logInController__WEBPACK_IMPORTED_MODULE_3__["default"]();
+        this.signUpController = new _controllers_signUpController__WEBPACK_IMPORTED_MODULE_4__["default"]();
+        this.changeUserInfoController = new _controllers_changeUserInfoController__WEBPACK_IMPORTED_MODULE_10__["default"]();
+        this.router = new _router_Router__WEBPACK_IMPORTED_MODULE_6__["default"](this.manageItemController, this.chargeMoneyController, this.purchaseItemController, this.logInController, this.signUpController, this.changeUserInfoController);
+        this.router.loadRoutePage();
+    }
+    AppManager.prototype.initDom = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_7__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_8__.SELECTOR.ID.APP).insertAdjacentHTML('beforeend', _templates_initialTemplate__WEBPACK_IMPORTED_MODULE_9__.initialTemplate);
+    };
+    return AppManager;
+}());
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AppManager);
+
+
+/***/ }),
+
 /***/ "./src/js/constants/constants.ts":
 /*!***************************************!*\
   !*** ./src/js/constants/constants.ts ***!
@@ -569,11 +624,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SELECTOR": () => (/* binding */ SELECTOR),
 /* harmony export */   "COINS": () => (/* binding */ COINS),
-/* harmony export */   "CUSTOM_EVENT": () => (/* binding */ CUSTOM_EVENT),
 /* harmony export */   "ERROR_MESSAGE": () => (/* binding */ ERROR_MESSAGE),
 /* harmony export */   "CONFIRM_MESSAGE": () => (/* binding */ CONFIRM_MESSAGE),
 /* harmony export */   "ITEM": () => (/* binding */ ITEM),
-/* harmony export */   "MONEY": () => (/* binding */ MONEY)
+/* harmony export */   "OWN_MONEY": () => (/* binding */ OWN_MONEY),
+/* harmony export */   "PURCHASE_MONEY": () => (/* binding */ PURCHASE_MONEY),
+/* harmony export */   "URL_HASH": () => (/* binding */ URL_HASH)
 /* harmony export */ });
 var SELECTOR = {
     ID: {
@@ -584,7 +640,8 @@ var SELECTOR = {
         ADD_ITEM_NAME: '#add-item-name',
         ADD_ITEM_PRICE: '#add-item-price',
         ADD_ITEM_QUANTITY: '#add-item-quantity',
-        ADD_ITEM_FORM: '#add-item-form'
+        ADD_ITEM_FORM: '#add-item-form',
+        PURCHASE_ITEM_FORM: '#purchase-item-form'
     },
     CLASS: {
         CHARGE_MONEY_INPUT: '.charge-money-input',
@@ -595,7 +652,8 @@ var SELECTOR = {
         TABLE_CONTAINER: '.table-container',
         ITEM_TABLE_CONFIRM_BUTTON: '.item-table-confirm-button',
         ITEM_TABLE_DELETE_BUTTON: '.item-table-delete-button',
-        ITEM_TABLE_CHANGE_BUTTON: '.item-table-change-button'
+        ITEM_TABLE_CHANGE_BUTTON: '.item-table-change-button',
+        PURCHASE_ITEM_INPUT: '.purchase-item-input'
     },
     ID_STRING: {
         ITEM_MANGE_TAB: 'item-manage-tab',
@@ -621,37 +679,24 @@ var COINS = {
     fifty: 50,
     ten: 10
 };
-var CUSTOM_EVENT = {
-    ROUTE_CHANGE: 'ROUTE_CHANGE',
-    CHARGE_MONEY: 'CHARGE_MONEY',
-    ADD_ITEM: 'ADD_ITEM',
-    TABLE_ITEM_CHANGE: 'TABLE_ITEM_CHANGE',
-    TABLE_ITEM_DELETE: 'TABLE_ITEM_DELETE'
-};
-var ERROR_MESSAGE = {
-    ITEM_NAME: {
-        DUPLICATE_ITEM: '이미 등록된 상품명입니다.',
-        EMPTY_NAME: '공백으로된 상품명을 입력할 수 없습니다.',
-        OVER_MAX_LENGTH: '10자 이상의 상품명을 입력할 수 없습니다.'
-    },
-    ITEM_PRICE: {
-        NOT_INTEGER: '정수가 아닌 숫자는 가격으로 입력할 수 없습니다.',
-        UNDER_MIN: '100원보다 낮은 가격은 입력할 수 없습니다.',
-        OVER_MAX: '10,000원 보다 큰 가격을 입력할 수 없습니다.',
-        INVALID_UNIT: '10원 단위의 가격만 입력할 수 있습니다.'
-    },
-    ITEM_QUANTITY: {
-        NOT_INTEGER: '정수가 아닌 숫자는 수량으로 입력할 수 없습니다.',
-        UNDER_MIN: '0이하의 수는 수량으로 입력할 수 없습니다.',
-        OVER_MAX: '20개 보다 많은 수량을 입력할 수 없습니다.'
-    },
-    INPUT_MONEY: {
-        NOT_INTEGER: '정수가 아닌 숫자는 금액으로 입력할 수 없습니다.',
-        UNDER_MIN: '0원이하의 금액은 투입할 수 없습니다.',
-        OVER_MAX: '100,000원 보다 많은 금액을 투입할 수 없습니다.',
-        INVALID_UNIT: '10원 단위의 금액만 투입할 수 있습니다.'
-    }
-};
+var ERROR_MESSAGE;
+(function (ERROR_MESSAGE) {
+    ERROR_MESSAGE["ITEM_NAME_DUPLICATED"] = "\uC774\uBBF8 \uB4F1\uB85D\uB41C \uC0C1\uD488\uBA85\uC785\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_NAME_EMPTY_NAME"] = "\uACF5\uBC31\uC73C\uB85C\uB41C \uC0C1\uD488\uBA85\uC744 \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_NAME_OVER_MAX_LENGTH"] = "10\uC790 \uC774\uC0C1\uC758 \uC0C1\uD488\uBA85\uC744 \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_PRICE_NOT_INTEGER"] = "\uC815\uC218\uAC00 \uC544\uB2CC \uC22B\uC790\uB294 \uAC00\uACA9\uC73C\uB85C \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_PRICE_UNDER_MIN"] = "100\uC6D0\uBCF4\uB2E4 \uB0AE\uC740 \uAC00\uACA9\uC740 \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_PRICE_OVER_MAX"] = "10,000\uC6D0 \uBCF4\uB2E4 \uD070 \uAC00\uACA9\uC744 \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_PRICE_INVALID_UNIT"] = "10\uC6D0 \uB2E8\uC704\uC758 \uAC00\uACA9\uB9CC \uC785\uB825\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_QUANTITY_NOT_INTEGER"] = "\uC815\uC218\uAC00 \uC544\uB2CC \uC22B\uC790\uB294 \uC218\uB7C9\uC73C\uB85C \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_QUANTITY_UNDER_MIN"] = "0\uC774\uD558\uC758 \uC218\uB294 \uC218\uB7C9\uC73C\uB85C \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["ITEM_QUANTITY_OVER_MAX"] = "20\uAC1C \uBCF4\uB2E4 \uB9CE\uC740 \uC218\uB7C9\uC744 \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["INPUT_MONEY_NOT_INTEGER"] = "\uC815\uC218\uAC00 \uC544\uB2CC \uC22B\uC790\uB294 \uAE08\uC561\uC73C\uB85C \uC785\uB825\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["INPUT_MONEY_UNDER_MIN"] = "0\uC6D0\uC774\uD558\uC758 \uAE08\uC561\uC740 \uD22C\uC785\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["INPUT_MONEY_OVER_MAX"] = "100,000\uC6D0 \uBCF4\uB2E4 \uB9CE\uC740 \uAE08\uC561\uC744 \uD22C\uC785\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["INPUT_MONEY_INVALID_UNIT"] = "10\uC6D0 \uB2E8\uC704\uC758 \uAE08\uC561\uB9CC \uD22C\uC785\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.";
+    ERROR_MESSAGE["INPUT_PURCHASE_MONEY_OVER_MAX"] = "10,000\uC6D0 \uBCF4\uB2E4 \uB9CE\uC740 \uAE08\uC561\uC744 \uD22C\uC785\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.";
+})(ERROR_MESSAGE || (ERROR_MESSAGE = {}));
 var CONFIRM_MESSAGE = {
     DELETE: '정말로 삭제하시겠습니까?'
 };
@@ -669,89 +714,86 @@ var ITEM = {
         MAX: 20
     }
 };
-var MONEY = {
+var OWN_MONEY = {
     MIN: 0,
     MAX: 100000,
     UNIT: 10
+};
+var PURCHASE_MONEY = {
+    MIN: 0,
+    MAX: 10000,
+    UNIT: 10
+};
+var URL_HASH = {
+    MANAGE_ITEM: '#mangeItem',
+    CHARGE_MONEY: '#chargeMoney',
+    PURCHASE_ITEM: '#purchaseItem',
+    LOG_IN: '#login',
+    SIGN_UP: '#signup'
 };
 
 
 /***/ }),
 
-/***/ "./src/js/controllers/AppController.ts":
-/*!*********************************************!*\
-  !*** ./src/js/controllers/AppController.ts ***!
-  \*********************************************/
+/***/ "./src/js/controllers/changeUserInfoController.ts":
+/*!********************************************************!*\
+  !*** ./src/js/controllers/changeUserInfoController.ts ***!
+  \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _manageItemController__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./manageItemController */ "./src/js/controllers/manageItemController.ts");
-/* harmony import */ var _chargeMoneyController__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./chargeMoneyController */ "./src/js/controllers/chargeMoneyController.ts");
-/* harmony import */ var _purchaseItemController__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./purchaseItemController */ "./src/js/controllers/purchaseItemController.ts");
-/* harmony import */ var _vendingMachine_vendingMachine__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../vendingMachine/vendingMachine */ "./src/js/vendingMachine/vendingMachine.ts");
-/* harmony import */ var _views_AppView__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../views/AppView */ "./src/js/views/AppView.ts");
-/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _views_changeUserInfoView__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/changeUserInfoView */ "./src/js/views/changeUserInfoView.ts");
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
 
 
-
-
-
-
-var AppController = /** @class */ (function () {
-    function AppController() {
-        this.vendingMachine = new _vendingMachine_vendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"]();
-        this.appView = new _views_AppView__WEBPACK_IMPORTED_MODULE_4__["default"]();
-        this.manageItemController = new _manageItemController__WEBPACK_IMPORTED_MODULE_0__["default"](this.vendingMachine);
-        this.chargeMoneyController = new _chargeMoneyController__WEBPACK_IMPORTED_MODULE_1__["default"](this.vendingMachine);
-        this.purchaseItemController = new _purchaseItemController__WEBPACK_IMPORTED_MODULE_2__["default"](this.vendingMachine);
+var ChangeUserInfoController = /** @class */ (function () {
+    function ChangeUserInfoController() {
+        this.changeUserInfoView = new _views_changeUserInfoView__WEBPACK_IMPORTED_MODULE_0__["default"]();
         this.bindEvents();
     }
-    AppController.prototype.bindEvents = function () {
-        window.addEventListener(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.CUSTOM_EVENT.ROUTE_CHANGE, this.handleRouteChange.bind(this));
-        window.addEventListener('popstate', this.route.bind(this));
+    ChangeUserInfoController.prototype.bindEvents = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.onCustomEvent)('CHANGE_USER_INFO', this.handleChangeUserInfo.bind(this));
     };
-    AppController.prototype.handleRouteChange = function (event) {
-        var $navButton = event.detail.$navButton;
-        if ($navButton.id === _constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_MANGE_TAB) {
-            window.history.pushState(null, null, '#mangeItem');
-        }
-        if ($navButton.id === _constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.MONEY_CHARGE_TAB) {
-            window.history.pushState(null, null, '#chargeMoney');
-        }
-        if ($navButton.id === _constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_PURCHASE_TAB) {
-            window.history.pushState(null, null, '#purchaseItem');
-        }
-        this.route();
+    ChangeUserInfoController.prototype.handleChangeUserInfo = function (event) {
+        var _a = event.detail, name = _a.name, password = _a.password, targetId = _a.targetId;
+        var user = JSON.parse(sessionStorage.getItem('user'));
+        var data = JSON.stringify({
+            email: user.email,
+            name: name,
+            password: password
+        });
+        fetch("https://json-vendingmachine-server.herokuapp.com/".concat(user.id), {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: data
+        })
+            .then(function (res) {
+            return res.json();
+        })
+            .then(function (result) {
+            var changedUser = {
+                email: result.email,
+                name: result.name,
+                id: result.id
+            };
+            var name = result.name;
+            if (!name) {
+                throw new Error(result);
+            }
+            sessionStorage.setItem('user', JSON.stringify(changedUser));
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.emitCustomEvent)('ROUTE_CHANGE', { detail: { targetId: targetId } });
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.showSnackBar)('회원 정보가 수정되었습니다.');
+        })["catch"](function (error) { return alert(error.message); });
     };
-    AppController.prototype.route = function () {
-        var hash = window.location.hash;
-        console.log(hash);
-        if (hash === '') {
-            this.manageItemController.loadPage();
-            this.appView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_MANGE_TAB);
-            return;
-        }
-        if (hash === '#mangeItem') {
-            this.manageItemController.loadPage();
-            this.appView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_MANGE_TAB);
-            return;
-        }
-        if (hash === '#chargeMoney') {
-            this.chargeMoneyController.loadPage();
-            this.appView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.MONEY_CHARGE_TAB);
-            return;
-        }
-        if (hash === '#purchaseItem') {
-            this.purchaseItemController.render();
-            this.appView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_5__.SELECTOR.ID_STRING.ITEM_PURCHASE_TAB);
-        }
+    ChangeUserInfoController.prototype.loadPage = function (isLogin) {
+        this.changeUserInfoView.render(isLogin);
     };
-    return AppController;
+    return ChangeUserInfoController;
 }());
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AppController);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ChangeUserInfoController);
 
 
 /***/ }),
@@ -767,7 +809,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _views_chargeMoneyView__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/chargeMoneyView */ "./src/js/views/chargeMoneyView.ts");
-/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
 
 
 var ChargeMoneyController = /** @class */ (function () {
@@ -777,22 +819,79 @@ var ChargeMoneyController = /** @class */ (function () {
         this.bindEvents();
     }
     ChargeMoneyController.prototype.bindEvents = function () {
-        window.addEventListener(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.CUSTOM_EVENT.CHARGE_MONEY, this.handleChargeMoney.bind(this));
-    };
-    ChargeMoneyController.prototype.loadPage = function () {
-        var coins = this.vendingMachine.getCoins();
-        var totalMoney = this.vendingMachine.getInputMoney();
-        this.chargeMoneyView.render(coins, totalMoney);
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.onCustomEvent)('CHARGE_MONEY', this.handleChargeMoney.bind(this));
     };
     ChargeMoneyController.prototype.handleChargeMoney = function (event) {
         var inputMoney = event.detail.inputMoney;
-        this.vendingMachine.chargeMoney(inputMoney);
-        this.chargeMoneyView.repaintCurrentMoney(this.vendingMachine.getInputMoney());
+        this.vendingMachine.chargeOwnMoney(inputMoney);
         this.chargeMoneyView.repaintCoinsTable(this.vendingMachine.getCoins());
+    };
+    ChargeMoneyController.prototype.loadPage = function (isLogin) {
+        var coins = this.vendingMachine.getCoins();
+        var totalMoney = this.vendingMachine.getCurrentOwnMoney();
+        this.chargeMoneyView.render(isLogin, coins, totalMoney);
     };
     return ChargeMoneyController;
 }());
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ChargeMoneyController);
+
+
+/***/ }),
+
+/***/ "./src/js/controllers/logInController.ts":
+/*!***********************************************!*\
+  !*** ./src/js/controllers/logInController.ts ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _views_logInView__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/logInView */ "./src/js/views/logInView.ts");
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
+
+
+var LogInController = /** @class */ (function () {
+    function LogInController() {
+        this.logInView = new _views_logInView__WEBPACK_IMPORTED_MODULE_0__["default"]();
+        this.bindEvents();
+    }
+    LogInController.prototype.bindEvents = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.onCustomEvent)('LOG_IN', this.handleLogIn.bind(this));
+    };
+    LogInController.prototype.handleLogIn = function (event) {
+        var _a = event.detail, email = _a.email, password = _a.password, targetId = _a.targetId;
+        var data = JSON.stringify({
+            email: email,
+            password: password
+        });
+        fetch('https://json-vendingmachine-server.herokuapp.com/signin', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: data
+        })
+            .then(function (res) {
+            return res.json();
+        })
+            .then(function (result) {
+            var accessToken = result.accessToken, user = result.user;
+            if (!accessToken) {
+                throw new Error(result);
+            }
+            sessionStorage.setItem('jwt-token', accessToken);
+            sessionStorage.setItem('isLogIn', 'true');
+            sessionStorage.setItem('user', JSON.stringify(user));
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.emitCustomEvent)('ROUTE_CHANGE', { detail: { targetId: targetId } });
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.showSnackBar)('로그인 되었습니다.');
+        })["catch"](function (error) { return alert(error.message); });
+    };
+    LogInController.prototype.loadPage = function (isLogin) {
+        this.logInView.render(isLogin);
+    };
+    return LogInController;
+}());
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LogInController);
 
 
 /***/ }),
@@ -808,8 +907,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _views_mangeItemView__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/mangeItemView */ "./src/js/views/mangeItemView.ts");
-/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
-/* harmony import */ var _validates_validates__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../validates/validates */ "./src/js/validates/validates.ts");
+/* harmony import */ var _validates_validates__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../validates/validates */ "./src/js/validates/validates.ts");
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
 
 
 
@@ -819,23 +918,20 @@ var ManageItemController = /** @class */ (function () {
         this.manageItemView = new _views_mangeItemView__WEBPACK_IMPORTED_MODULE_0__["default"]();
         this.bindEvents();
     }
-    ManageItemController.prototype.loadPage = function () {
-        var itemList = this.vendingMachine.getItems();
-        this.manageItemView.render(itemList);
-    };
     ManageItemController.prototype.bindEvents = function () {
-        window.addEventListener(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.CUSTOM_EVENT.ADD_ITEM, this.handleAddItem.bind(this));
-        window.addEventListener(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.CUSTOM_EVENT.TABLE_ITEM_CHANGE, this.handleTableItemChange.bind(this));
-        window.addEventListener(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.CUSTOM_EVENT.TABLE_ITEM_DELETE, this.handleTableItemDelete.bind(this));
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_2__.onCustomEvent)('ADD_ITEM', this.handleAddItem.bind(this));
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_2__.onCustomEvent)('TABLE_ITEM_CHANGE', this.handleTableItemChange.bind(this));
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_2__.onCustomEvent)('TABLE_ITEM_DELETE', this.handleTableItemDelete.bind(this));
     };
     ManageItemController.prototype.handleAddItem = function (event) {
         try {
             var newItem = event.detail;
             var items = this.vendingMachine.getItems();
-            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_2__.checkDuplicatedItem)(items, newItem, null);
+            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_1__.checkDuplicatedItem)(items, newItem, null);
             this.vendingMachine.addItem(newItem);
             this.manageItemView.clearInput();
             this.manageItemView.repaintItemTable(this.vendingMachine.getItems());
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_2__.showSnackBar)('상품이 추가되었습니다.');
         }
         catch (error) {
             alert(error.message);
@@ -845,9 +941,10 @@ var ManageItemController = /** @class */ (function () {
         try {
             var _a = event.detail, item = _a.item, targetRowIndex = _a.targetRowIndex, $targetTableRow = _a.$targetTableRow;
             var items = this.vendingMachine.getItems();
-            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_2__.checkDuplicatedItem)(items, item, targetRowIndex);
+            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_1__.checkDuplicatedItem)(items, item, targetRowIndex);
             this.vendingMachine.changeItem(targetRowIndex, item);
             this.manageItemView.repaintItemTableRow($targetTableRow, item);
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_2__.showSnackBar)('상품이 수정되었습니다.');
         }
         catch (error) {
             alert(error.message);
@@ -856,6 +953,10 @@ var ManageItemController = /** @class */ (function () {
     ManageItemController.prototype.handleTableItemDelete = function (event) {
         var item = event.detail.item;
         this.vendingMachine.deleteItem(item);
+    };
+    ManageItemController.prototype.loadPage = function (isLogin) {
+        var itemList = this.vendingMachine.getItems();
+        this.manageItemView.render(isLogin, itemList);
     };
     return ManageItemController;
 }());
@@ -882,20 +983,248 @@ var PurchaseItemController = /** @class */ (function () {
     function PurchaseItemController(vendingMachine) {
         this.vendingMachine = vendingMachine;
         this.purchaseItemView = new _views_purchaseItemView__WEBPACK_IMPORTED_MODULE_0__["default"]();
-        this.coins = { fiveHundred: 0, hundred: 0, fifty: 0, ten: 0 };
-        this.inputMoney = 0;
+        this.bindEvents();
     }
-    PurchaseItemController.prototype.render = function () {
-        var items = this.vendingMachine.getItems();
-        this.purchaseItemView.render(items, this.coins, this.inputMoney);
-        this.bindEvent();
+    PurchaseItemController.prototype.bindEvents = function () {
+        var _this = this;
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.onCustomEvent)('PURCHASE_MONEY_INPUT', this.handlePurchaseMoneyInput.bind(this));
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.onCustomEvent)('RETURN_MONEY', function () {
+            try {
+                _this.vendingMachine.giveChange();
+                (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.showSnackBar)('잔돈이 반환되었습니다.');
+                _this.loadPage();
+            }
+            catch (error) {
+                alert(error.message);
+            }
+        });
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.onCustomEvent)('PURCHASE_ITEM', function (event) {
+            try {
+                var itemName = event.detail.itemName;
+                _this.vendingMachine.buyItem(itemName);
+                (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.showSnackBar)('상품을 구매하였습니다.');
+                _this.loadPage();
+            }
+            catch (error) {
+                alert(error.message);
+            }
+        });
     };
-    PurchaseItemController.prototype.bindEvent = function () {
-        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.$)('.submit-button').addEventListener('click', function (event) { return event.preventDefault(); });
+    PurchaseItemController.prototype.handlePurchaseMoneyInput = function (event) {
+        var inputMoney = event.detail.inputMoney;
+        this.vendingMachine.chargePurchaseInputMoney(inputMoney);
+    };
+    PurchaseItemController.prototype.loadPage = function () {
+        var items = this.vendingMachine.getItems();
+        var inputMoney = this.vendingMachine.getPurchaseInputMoney();
+        var coins = this.vendingMachine.getChange();
+        this.purchaseItemView.render(items, coins, inputMoney);
     };
     return PurchaseItemController;
 }());
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PurchaseItemController);
+
+
+/***/ }),
+
+/***/ "./src/js/controllers/signUpController.ts":
+/*!************************************************!*\
+  !*** ./src/js/controllers/signUpController.ts ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _views_signUpView__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/signUpView */ "./src/js/views/signUpView.ts");
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
+
+
+var SignUpController = /** @class */ (function () {
+    function SignUpController() {
+        this.signUpView = new _views_signUpView__WEBPACK_IMPORTED_MODULE_0__["default"]();
+        this.bindEvents();
+    }
+    SignUpController.prototype.bindEvents = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.onCustomEvent)('SIGN_UP', this.handleSignUp.bind(this));
+    };
+    SignUpController.prototype.handleSignUp = function (event) {
+        var _a = event.detail, email = _a.email, name = _a.name, password = _a.password, targetId = _a.targetId;
+        var data = JSON.stringify({
+            email: email,
+            name: name,
+            password: password
+        });
+        fetch('https://json-vendingmachine-server.herokuapp.com/signup', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: data
+        })
+            .then(function (res) {
+            return res.json();
+        })
+            .then(function (result) {
+            var accessToken = result.accessToken;
+            if (!accessToken) {
+                throw new Error(result);
+            }
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.emitCustomEvent)('ROUTE_CHANGE', { detail: { targetId: targetId } });
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.showSnackBar)('회원가입 되었습니다.');
+        })["catch"](function (error) { return alert(error.message); });
+    };
+    SignUpController.prototype.loadPage = function (isLogin) {
+        this.signUpView.render(isLogin);
+    };
+    return SignUpController;
+}());
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SignUpController);
+
+
+/***/ }),
+
+/***/ "./src/js/router/Router.ts":
+/*!*********************************!*\
+  !*** ./src/js/router/Router.ts ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
+/* harmony import */ var _views_mainView__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../views/mainView */ "./src/js/views/mainView.ts");
+/* harmony import */ var _templates_initialTemplate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../templates/initialTemplate */ "./src/js/templates/initialTemplate.ts");
+
+
+
+
+var Router = /** @class */ (function () {
+    function Router(manageItemController, chargeMoneyController, purchaseItemController, logInController, signUpController, changeUserInfoController) {
+        this.mainView = new _views_mainView__WEBPACK_IMPORTED_MODULE_2__["default"]();
+        this.manageItemController = manageItemController;
+        this.chargeMoneyController = chargeMoneyController;
+        this.purchaseItemController = purchaseItemController;
+        this.logInController = logInController;
+        this.signUpController = signUpController;
+        this.changeUserInfoController = changeUserInfoController;
+        this.$header = (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.$)('.header');
+        this.bindEvents();
+        this.loadRoutePage();
+    }
+    Router.prototype.bindEvents = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.onCustomEvent)('ROUTE_CHANGE', this.handleRouteChange.bind(this));
+        window.addEventListener('popstate', this.loadRoutePage.bind(this));
+    };
+    Router.prototype.handleRouteChange = function (event) {
+        var targetId = event.detail.targetId;
+        if (targetId === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.SELECTOR.ID_STRING.ITEM_MANGE_TAB) {
+            window.history.pushState(null, null, _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.MANAGE_ITEM);
+        }
+        if (targetId === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.SELECTOR.ID_STRING.MONEY_CHARGE_TAB) {
+            window.history.pushState(null, null, _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.CHARGE_MONEY);
+        }
+        if (targetId === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.SELECTOR.ID_STRING.ITEM_PURCHASE_TAB) {
+            window.history.pushState(null, null, _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.PURCHASE_ITEM);
+        }
+        if (targetId === 'login-button') {
+            window.history.pushState(null, null, '#login');
+        }
+        if (targetId === 'go-to-signup') {
+            window.history.pushState(null, null, '#signup');
+        }
+        if (targetId === 'login-form') {
+            window.history.pushState(null, null, '#purchaseItem');
+        }
+        if (targetId === 'signup-form') {
+            window.history.pushState(null, null, '#login');
+        }
+        if (targetId === 'change-form') {
+            window.history.pushState(null, null, '#purchaseItem');
+        }
+        if (targetId === 'change-user-info') {
+            window.history.pushState(null, null, '#changeUserInfo');
+        }
+        if (targetId === 'logout') {
+            window.history.pushState(null, null, '#purchaseItem');
+        }
+        this.loadRoutePage();
+    };
+    Router.prototype.loadRoutePage = function () {
+        var hash = window.location.hash;
+        var isLogin = sessionStorage.getItem('isLogIn') === 'true' ? true : false;
+        var user = JSON.parse(sessionStorage.getItem('user'));
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.$)('#header-button-container').replaceChildren();
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.$)('#header-button-container').insertAdjacentHTML('beforeend', (0,_templates_initialTemplate__WEBPACK_IMPORTED_MODULE_3__.headerButtonTemplate)(isLogin));
+        if (isLogin) {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.$)('#user-name').textContent = user.name[0];
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.$)('.nav-container').classList.remove('display-none');
+        }
+        else {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_1__.$)('.nav-container').classList.add('display-none');
+        }
+        if (!hash) {
+            this.$header.classList.remove('display-none');
+            this.manageItemController.loadPage(isLogin);
+            this.mainView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.SELECTOR.ID_STRING.ITEM_MANGE_TAB);
+            return;
+        }
+        if (hash === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.MANAGE_ITEM) {
+            this.$header.classList.remove('display-none');
+            this.manageItemController.loadPage(isLogin);
+            this.mainView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.SELECTOR.ID_STRING.ITEM_MANGE_TAB);
+            return;
+        }
+        if (hash === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.CHARGE_MONEY) {
+            this.$header.classList.remove('display-none');
+            this.chargeMoneyController.loadPage(isLogin);
+            this.mainView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.SELECTOR.ID_STRING.MONEY_CHARGE_TAB);
+            return;
+        }
+        if (hash === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.PURCHASE_ITEM) {
+            this.$header.classList.remove('display-none');
+            this.purchaseItemController.loadPage();
+            this.mainView.changeButtonColor(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.SELECTOR.ID_STRING.ITEM_PURCHASE_TAB);
+            return;
+        }
+        if (hash === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.LOG_IN) {
+            this.$header.classList.add('display-none');
+            this.logInController.loadPage(isLogin);
+            return;
+        }
+        if (hash === _constants_constants__WEBPACK_IMPORTED_MODULE_0__.URL_HASH.SIGN_UP) {
+            this.$header.classList.add('display-none');
+            this.signUpController.loadPage(isLogin);
+        }
+        if (hash === '#changeUserInfo') {
+            this.$header.classList.add('display-none');
+            this.changeUserInfoController.loadPage(isLogin);
+        }
+    };
+    return Router;
+}());
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Router);
+
+
+/***/ }),
+
+/***/ "./src/js/templates/changeUserInfoTemplate.ts":
+/*!****************************************************!*\
+  !*** ./src/js/templates/changeUserInfoTemplate.ts ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "changeUserInfoTemplate": () => (/* binding */ changeUserInfoTemplate)
+/* harmony export */ });
+var changeUserInfoTemplate = function (isLogin, user) {
+    return isLogin
+        ? "\n    <h1 class=\"title\">\uD68C\uC6D0 \uC815\uBCF4 \uC218\uC815</h1>\n    <form id=\"change-form\">\n      <label>\uC774\uBA54\uC77C</label>\n      <input id=\"change-email-input\" required value=".concat(user.email, " disabled/>\n      <label>\uC774\uB984</label>\n      <input id=\"change-name-input\" placeholder=\"\uC774\uB984\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n      <label>\uBE44\uBC00\uBC88\uD638</label>\n      <input id=\"change-password-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" type=\"password\" required/>\n      <label>\uBE44\uBC00\uBC88\uD638 \uD655\uC778</label>\n      <input id=\"change-password-check-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" type=\"password\" required/>  \n      <button>\uD655\uC778</button>\n    </form>")
+        : "<div class=\"permission-info\">\uC811\uADFC \uAD8C\uD55C\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.</div>";
+};
 
 
 /***/ }),
@@ -911,7 +1240,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "sectionTemplate": () => (/* binding */ sectionTemplate),
 /* harmony export */   "chargeMoneyTemplate": () => (/* binding */ chargeMoneyTemplate)
 /* harmony export */ });
-/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _utils_viewTemplate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/viewTemplate */ "./src/js/utils/viewTemplate.ts");
 
 var sectionTemplate = {
     inputContainer: function (currentMoney) {
@@ -920,15 +1249,18 @@ var sectionTemplate = {
     tableContainer: function (coins) {
         return "\n    <section class=\"table-container\">\n      <h2>\uC790\uD310\uAE30\uAC00 \uBCF4\uC720\uD55C \uB3D9\uC804</h2>\n      <table class=\"coin-table\">\n      ".concat(this.coinTableContent(coins), "\n      </table>\n    </section>");
     },
+    coinTableRowLayout: function (coinKey, coinNumber) {
+        return "\n    <tr>\n      <td>".concat(coinKey, "\uC6D0</td>\n      <td>").concat(coinNumber, "\uAC1C</td>\n    </tr>\n    ");
+    },
     coinTableContent: function (coins) {
-        return "\n    <tr>\n      <th>\uB3D9\uC804</th>\n      <th>\uAC1C\uC218</th>\n    </tr>\n    ".concat(Object.keys(coins)
-            .map(function (coinKey) {
-            return "\n        <tr>\n          <td>".concat(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.COINS[coinKey], "\uC6D0</td>\n          <td>").concat(coins[coinKey], "\uAC1C</td>\n        </tr>\n      ");
-        })
-            .join(''), "\n      ");
+        return "\n    <tr>\n      <th>\uB3D9\uC804</th>\n      <th>\uAC1C\uC218</th>\n    </tr>\n    ".concat((0,_utils_viewTemplate__WEBPACK_IMPORTED_MODULE_0__.generateCoinTableTemplate)(coins, this.coinTableRowLayout), "\n    ");
     }
 };
-var chargeMoneyTemplate = function (coins, currentMoney) { return "\n  ".concat(sectionTemplate.inputContainer(currentMoney), "\n  ").concat(sectionTemplate.tableContainer(coins), "\n"); };
+var chargeMoneyTemplate = function (isLogin, coins, currentMoney) {
+    return isLogin
+        ? "\n  ".concat(sectionTemplate.inputContainer(currentMoney), "\n  ").concat(sectionTemplate.tableContainer(coins), "\n  ")
+        : "<div class=\"permission-info\">\uC811\uADFC \uAD8C\uD55C\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.</div>";
+};
 
 
 /***/ }),
@@ -941,9 +1273,34 @@ var chargeMoneyTemplate = function (coins, currentMoney) { return "\n  ".concat(
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "initialTemplate": () => (/* binding */ initialTemplate)
+/* harmony export */   "initialTemplate": () => (/* binding */ initialTemplate),
+/* harmony export */   "headerButtonTemplate": () => (/* binding */ headerButtonTemplate)
 /* harmony export */ });
-var initialTemplate = "\n  <h1>\uD83C\uDF7F \uC790\uD310\uAE30 \uD83C\uDF7F</h1>\n  <div class=\"nav-container\">\n    <button id=\"item-manage-tab\" class=\"nav-button nav-button-clicked\">\uC0C1\uD488 \uAD00\uB9AC</button>\n    <button id=\"money-charge-tab\" class=\"nav-button\">\uC794\uB3C8 \uCDA9\uC804</button>\n    <button id=\"item-purchase-tab\" class=\"nav-button\">\uC0C1\uD488 \uAD6C\uB9E4</button>\n  </div>\n  <div id=\"content\"></div>\n";
+var initialTemplate = "\n  <div class=\"header\">\n  <div id=\"header-button-container\"><button id=\"login-button\">\uB85C\uADF8\uC778</button></div>\n    <h1>\uD83C\uDF7F \uC790\uD310\uAE30 \uD83C\uDF7F</h1>\n    <div class=\"nav-container\">\n      <button id=\"item-manage-tab\" class=\"nav-button nav-button-clicked\">\uC0C1\uD488 \uAD00\uB9AC</button>\n      <button id=\"money-charge-tab\" class=\"nav-button\">\uC794\uB3C8 \uCDA9\uC804</button>\n      <button id=\"item-purchase-tab\" class=\"nav-button\">\uC0C1\uD488 \uAD6C\uB9E4</button>\n    </div>\n  </div>\n  <div id=\"content\"></div>\n  <div id=\"snackbar\"></div>\n";
+var headerButtonTemplate = function (isLogIn) {
+    return isLogIn
+        ? "\n    <div id=\"user-container\">\n      <button id=\"user-badge\"><span id=\"user-name\"></span></button>\n      <ul id=\"user-dropbox\" class=\"display-none\">\n       <li id=\"change-user-info\">\uC815\uBCF4 \uC218\uC815</li>\n       <li id=\"logout\">\uB85C\uADF8\uC544\uC6C3</li>\n      </ul>\n    </div>\n        "
+        : "<button id=\"login-button\">\uB85C\uADF8\uC778</button>";
+};
+
+
+/***/ }),
+
+/***/ "./src/js/templates/logInTemplate.ts":
+/*!*******************************************!*\
+  !*** ./src/js/templates/logInTemplate.ts ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "logInTemplate": () => (/* binding */ logInTemplate)
+/* harmony export */ });
+var logInTemplate = function (isLogin) {
+    return isLogin
+        ? "<div class=\"permission-info\">\uC811\uADFC \uAD8C\uD55C\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.</div>"
+        : "\n    <h1 class=\"title\">\uB85C\uADF8\uC778</h1>\n    <form id=\"login-form\">\n      <label>\uC774\uBA54\uC77C</label>\n      <input id=\"login-email-input\" class=\"login-input\" placeholder=\"woowacourse@gmail.com\" type=\"email\" required/>\n      <label>\uBE44\uBC00\uBC88\uD638</label>\n      <input id=\"login-password-input\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" type=\"password\" required/>\n      <button>\uD655\uC778</button>\n    </form>\n    <div class=\"login-to-signup\">\uC544\uC9C1 \uD68C\uC6D0\uC774 \uC544\uB2C8\uC2E0\uAC00\uC694? <span id=\"go-to-signup\">\uD68C\uC6D0\uAC00\uC785</span></div>\n    ";
+};
 
 
 /***/ }),
@@ -974,7 +1331,11 @@ var sectionTemplate = {
         return "\n    <tr>\n      <td><input class=\"table-item-input table-item-input-name\" value=\"".concat(item.name, "\" placeholder=\"\uC0C1\uD488\uBA85\"></input></td>\n      <td><input class=\"table-item-input table-item-input-price\" value=\"").concat(item.price, "\" placeholder=\"\uAC00\uACA9\" type=\"number\"></input></td>\n      <td><input class=\"table-item-input table-item-input-quantity\" value=\"").concat(item.quantity, "\" placeholder=\"\uC218\uB7C9\" type=\"number\"></input></td>\n      <td>\n       <button class=\"item-table-confirm-button\">\uD655\uC778</button>\n      </td>\n    </tr>\n");
     }
 };
-var manageItemTemplate = function (items) { return "\n  ".concat(sectionTemplate.inputContainer(), "\n  ").concat(sectionTemplate.tableContainer(items), "\n"); };
+var manageItemTemplate = function (isLogin, items) {
+    return isLogin
+        ? "\n    ".concat(sectionTemplate.inputContainer(), "\n    ").concat(sectionTemplate.tableContainer(items), "\n    ")
+        : "<div class=\"permission-info\">\uC811\uADFC \uAD8C\uD55C\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.</div>";
+};
 
 
 /***/ }),
@@ -989,28 +1350,46 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "purchaseItemTemplate": () => (/* binding */ purchaseItemTemplate)
 /* harmony export */ });
-/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _utils_viewTemplate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/viewTemplate */ "./src/js/utils/viewTemplate.ts");
 
 var sectionTemplate = {
     inputContainer: function (inputMoney) {
-        return "\n    <section class=\"input-container\">\n      <h2 hidden>\uC0C1\uD488 \uAD6C\uB9E4</h2>\n      <form>\n        <label>\uC0C1\uD488\uC744 \uAD6C\uB9E4\uD560 \uAE08\uC561\uC744 \uD22C\uC785\uD574\uC8FC\uC138\uC694</label>\n        <div>\n          <input class=\"charge-money-input\" placeholder=\"\uAE08\uC561\" />\n          <button class=\"submit-button\">\uCDA9\uC804</button>\n        </div>\n      </form>\n      <p>\uD22C\uC785\uD55C \uAE08\uC561: <span>".concat(inputMoney, "</span>\uC6D0</p>\n    </section>\n    ");
+        return "\n    <section class=\"input-container\">\n      <h2 hidden>\uC0C1\uD488 \uAD6C\uB9E4</h2>\n      <form id=\"purchase-item-form\">\n        <label>\uC0C1\uD488\uC744 \uAD6C\uB9E4\uD560 \uAE08\uC561\uC744 \uD22C\uC785\uD574\uC8FC\uC138\uC694</label>\n        <div>\n          <input class=\"purchase-item-input\" placeholder=\"\uAE08\uC561\" type=\"number\"/>\n          <button class=\"submit-button\">\uCDA9\uC804</button>\n        </div>\n      </form>\n      <p>\uD22C\uC785\uD55C \uAE08\uC561: <span id=\"purchase-money-input\">".concat(inputMoney, "</span>\uC6D0</p>\n    </section>\n    ");
     },
     itemTableContainer: function (items) {
         return "\n    <section class=\"table-container\">\n      <h2>\uAD6C\uB9E4 \uAC00\uB2A5 \uC0C1\uD488 \uD604\uD669</h2>\n      <table class=\"item-table\">\n        <tr>\n          <th>\uC0C1\uD488\uBA85</th>\n          <th>\uAC00\uACA9</th>\n          <th>\uC218\uB7C9</th>\n          <th>\uAD6C\uB9E4</th>\n        </tr>\n        ".concat(items
             .map(function (item) {
-            return "\n          <tr>\n            <td>".concat(item.name, "</td>\n            <td>").concat(item.price, "</td>\n            <td>").concat(item.quantity, "</td>\n            <td>\n              <button class=\"item-table-purchase-button\">\uAD6C\uB9E4</button>\n            </td>\n          </tr>");
+            return "\n          <tr>\n            <td class=\"table-item-input-name\">".concat(item.name, "</td>\n            <td>").concat(item.price, "</td>\n            <td>").concat(item.quantity, "</td>\n            <td>\n              <button class=\"item-table-purchase-button\">\uAD6C\uB9E4</button>\n            </td>\n          </tr>");
         })
             .join(''), "\n      </table>\n    </section>\n    ");
     },
+    coinTableRowLayout: function (coinKey, coinNumber) {
+        return "\n    <tr>\n      <td>".concat(coinKey, "\uC6D0</td>\n      <td>").concat(coinNumber, "\uAC1C</td>\n    </tr>\n    ");
+    },
     coinTableContainer: function (coins) {
-        return "\n    <section class=\"table-container\">\n      <h2>\uC794\uB3C8 \uBC18\uD658</h2>\n      <table class=\"coin-table\">\n          <tr>\n            <th>\uB3D9\uC804</th>\n            <th>\uAC1C\uC218</th>\n          </tr>\n          ".concat(Object.keys(coins)
-            .map(function (coinKey) {
-            return "\n              <tr>\n                <td>".concat(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.COINS[coinKey], "\uC6D0</td>\n                <td>").concat(coins[coinKey], "\uAC1C</td>\n              </tr>\n            ");
-        })
-            .join(''), "\n        </table>\n      <button class=\"return-money-button\">\uBC18\uD658</button>\n    </section>\n    ");
+        return "\n    <section class=\"table-container\">\n      <h2>\uC794\uB3C8 \uBC18\uD658</h2>\n      <table class=\"coin-table\">\n          <tr>\n            <th>\uB3D9\uC804</th>\n            <th>\uAC1C\uC218</th>\n          </tr>\n          ".concat((0,_utils_viewTemplate__WEBPACK_IMPORTED_MODULE_0__.generateCoinTableTemplate)(coins, this.coinTableRowLayout), "\n        </table>\n      <button class=\"return-money-button\">\uBC18\uD658</button>\n    </section>\n    ");
     }
 };
 var purchaseItemTemplate = function (items, coins, inputMoney) { return "\n  ".concat(sectionTemplate.inputContainer(inputMoney), "\n  ").concat(sectionTemplate.itemTableContainer(items), "\n  ").concat(sectionTemplate.coinTableContainer(coins), "\n"); };
+
+
+/***/ }),
+
+/***/ "./src/js/templates/signUpTemplate.ts":
+/*!********************************************!*\
+  !*** ./src/js/templates/signUpTemplate.ts ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "signUpTemplate": () => (/* binding */ signUpTemplate)
+/* harmony export */ });
+var signUpTemplate = function (isLogin) {
+    return isLogin
+        ? "<div class=\"permission-info\">\uC774\uBBF8 \uB85C\uADF8\uC778 \uB418\uC5B4\uC788\uC2B5\uB2C8\uB2E4.</div>"
+        : "\n    <h1 class=\"title\">\uD68C\uC6D0\uAC00\uC785</h1>\n    <form id=\"signup-form\">\n      <label>\uC774\uBA54\uC77C</label>\n      <input id=\"signup-email-input\" placeholder=\"\uC774\uBA54\uC77C \uC8FC\uC18C\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" type=\"email\" required/>\n      <label>\uC774\uB984</label>\n      <input id=\"signup-name-input\" placeholder=\"\uC774\uB984\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694\" required minlength=\"2\" maxlength=\"6\"/>\n      <label>\uBE44\uBC00\uBC88\uD638</label>\n      <input id=\"signup-password-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" type=\"password\" required/>\n      <label>\uBE44\uBC00\uBC88\uD638 \uD655\uC778</label>\n      <input id=\"signup-password-check-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" type=\"password\" required/>  \n      <button>\uD655\uC778</button>\n    </form>";
+};
 
 
 /***/ }),
@@ -1025,13 +1404,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "generateRandom": () => (/* binding */ generateRandom),
 /* harmony export */   "$": () => (/* binding */ $),
-/* harmony export */   "$$": () => (/* binding */ $$)
+/* harmony export */   "$$": () => (/* binding */ $$),
+/* harmony export */   "emitCustomEvent": () => (/* binding */ emitCustomEvent),
+/* harmony export */   "onCustomEvent": () => (/* binding */ onCustomEvent),
+/* harmony export */   "showSnackBar": () => (/* binding */ showSnackBar)
 /* harmony export */ });
 function generateRandom(max) {
     return Math.floor(Math.random() * (max + 1));
 }
 var $ = function (selector) { return document.querySelector(selector); };
 var $$ = function (selector) { return document.querySelectorAll(selector); };
+var emitCustomEvent = function (customEventName, detail) {
+    window.dispatchEvent(new CustomEvent(customEventName, detail));
+};
+var onCustomEvent = function (customEventName, eventHandler) {
+    window.addEventListener(customEventName, eventHandler);
+};
+var showSnackBar = function (message) {
+    var $snackbar = document.querySelector('#snackbar');
+    $snackbar.textContent = message;
+    $snackbar.classList.toggle('show');
+    setTimeout(function () {
+        $snackbar.classList.toggle('show');
+    }, 2000);
+};
+
+
+/***/ }),
+
+/***/ "./src/js/utils/viewTemplate.ts":
+/*!**************************************!*\
+  !*** ./src/js/utils/viewTemplate.ts ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "generateCoinTableTemplate": () => (/* binding */ generateCoinTableTemplate)
+/* harmony export */ });
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+
+var generateCoinTableTemplate = function (coins, coinTableRowLayout) {
+    return Object.keys(coins)
+        .map(function (coinKey) { return coinTableRowLayout(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.COINS[coinKey], coins[coinKey]); })
+        .join('');
+};
 
 
 /***/ }),
@@ -1045,58 +1462,89 @@ var $$ = function (selector) { return document.querySelectorAll(selector); };
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "validateAddItemInput": () => (/* binding */ validateAddItemInput),
-/* harmony export */   "validateInputMoney": () => (/* binding */ validateInputMoney),
-/* harmony export */   "checkDuplicatedItem": () => (/* binding */ checkDuplicatedItem)
+/* harmony export */   "validateInputOwnMoney": () => (/* binding */ validateInputOwnMoney),
+/* harmony export */   "validateInputPurchaseMoney": () => (/* binding */ validateInputPurchaseMoney),
+/* harmony export */   "checkDuplicatedItem": () => (/* binding */ checkDuplicatedItem),
+/* harmony export */   "validateReturnChange": () => (/* binding */ validateReturnChange),
+/* harmony export */   "checkPassword": () => (/* binding */ checkPassword)
 /* harmony export */ });
 /* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
 
 var validateAddItemInput = function (_a) {
     var name = _a.name, price = _a.price, quantity = _a.quantity;
     if (name.length === 0) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_NAME.EMPTY_NAME);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_NAME_EMPTY_NAME);
     }
     if (name.length > _constants_constants__WEBPACK_IMPORTED_MODULE_0__.ITEM.NAME.MAX_LENGTH) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_NAME.OVER_MAX_LENGTH);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_NAME_OVER_MAX_LENGTH);
     }
     if (!Number.isInteger(price)) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_PRICE.NOT_INTEGER);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_PRICE_NOT_INTEGER);
     }
     if (price < _constants_constants__WEBPACK_IMPORTED_MODULE_0__.ITEM.PRICE.MIN) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_PRICE.UNDER_MIN);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_PRICE_UNDER_MIN);
     }
     if (price > _constants_constants__WEBPACK_IMPORTED_MODULE_0__.ITEM.PRICE.MAX) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_PRICE.OVER_MAX);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_PRICE_OVER_MAX);
     }
     if (price % _constants_constants__WEBPACK_IMPORTED_MODULE_0__.ITEM.PRICE.UNIT !== 0) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_PRICE.INVALID_UNIT);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_PRICE_INVALID_UNIT);
     }
     if (!Number.isInteger(quantity)) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_QUANTITY.NOT_INTEGER);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_QUANTITY_NOT_INTEGER);
     }
     if (quantity <= _constants_constants__WEBPACK_IMPORTED_MODULE_0__.ITEM.QUANTITY.MIN) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_QUANTITY.UNDER_MIN);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_QUANTITY_UNDER_MIN);
     }
     if (quantity > _constants_constants__WEBPACK_IMPORTED_MODULE_0__.ITEM.QUANTITY.MAX) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_QUANTITY.OVER_MAX);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_QUANTITY_OVER_MAX);
     }
 };
-var validateInputMoney = function (inputMoney) {
+var validateInputOwnMoney = function (inputMoney) {
     if (!Number.isInteger(inputMoney)) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY.NOT_INTEGER);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY_NOT_INTEGER);
     }
-    if (inputMoney <= _constants_constants__WEBPACK_IMPORTED_MODULE_0__.MONEY.MIN) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY.UNDER_MIN);
+    if (inputMoney <= _constants_constants__WEBPACK_IMPORTED_MODULE_0__.OWN_MONEY.MIN) {
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY_UNDER_MIN);
     }
-    if (inputMoney > _constants_constants__WEBPACK_IMPORTED_MODULE_0__.MONEY.MAX) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY.OVER_MAX);
+    if (inputMoney > _constants_constants__WEBPACK_IMPORTED_MODULE_0__.OWN_MONEY.MAX) {
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY_OVER_MAX);
     }
-    if (inputMoney % _constants_constants__WEBPACK_IMPORTED_MODULE_0__.MONEY.UNIT !== 0) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY.INVALID_UNIT);
+    if (inputMoney % _constants_constants__WEBPACK_IMPORTED_MODULE_0__.OWN_MONEY.UNIT !== 0) {
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY_INVALID_UNIT);
+    }
+};
+var validateInputPurchaseMoney = function (inputMoney) {
+    if (!Number.isInteger(inputMoney)) {
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY_NOT_INTEGER);
+    }
+    if (inputMoney <= _constants_constants__WEBPACK_IMPORTED_MODULE_0__.PURCHASE_MONEY.MIN) {
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY_UNDER_MIN);
+    }
+    if (inputMoney > _constants_constants__WEBPACK_IMPORTED_MODULE_0__.PURCHASE_MONEY.MAX) {
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_PURCHASE_MONEY_OVER_MAX);
+    }
+    if (inputMoney % _constants_constants__WEBPACK_IMPORTED_MODULE_0__.PURCHASE_MONEY.UNIT !== 0) {
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.INPUT_MONEY_INVALID_UNIT);
     }
 };
 var checkDuplicatedItem = function (items, newItem, targetIndex) {
     if (items.find(function (item, index) { return index !== targetIndex && item.name === newItem.name; })) {
-        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_NAME.DUPLICATE_ITEM);
+        throw new Error(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.ITEM_NAME_DUPLICATED);
+    }
+};
+var validateReturnChange = function (purchaseMoney, ownMoney) {
+    if (purchaseMoney === 0) {
+        throw new Error('투입된 금액이 없습니다.');
+    }
+    if (ownMoney === 0) {
+        throw new Error('자판기에 잔돈이 없습니다.');
+    }
+};
+var checkPassword = function (password) {
+    var Regex = /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%^*+=-]).{8,16}$/;
+    if (!Regex.test(password)) {
+        throw new Error('영문, 숫자, 특수문자가 혼용된 8~16자의 비밀번호를 작성해주세요.');
     }
 };
 
@@ -1115,6 +1563,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
 /* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
+/* harmony import */ var _validates_validates__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../validates/validates */ "./src/js/validates/validates.ts");
 var __assign = (undefined && undefined.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -1137,11 +1586,14 @@ var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from
 };
 
 
+
 var VendingMachine = /** @class */ (function () {
     function VendingMachine() {
         this.items = [];
         this.coins = { fiveHundred: 0, hundred: 0, fifty: 0, ten: 0 };
-        this.inputMoney = 0;
+        this.change = { fiveHundred: 0, hundred: 0, fifty: 0, ten: 0 };
+        this.currentOwnMoney = 0;
+        this.purchaseInputMoney = 0;
     }
     VendingMachine.prototype.getItems = function () {
         return JSON.parse(JSON.stringify(this.items));
@@ -1155,11 +1607,23 @@ var VendingMachine = /** @class */ (function () {
     VendingMachine.prototype.setCoins = function (newCoins) {
         this.coins = newCoins;
     };
-    VendingMachine.prototype.getInputMoney = function () {
-        return this.inputMoney;
+    VendingMachine.prototype.getCurrentOwnMoney = function () {
+        return this.currentOwnMoney;
     };
-    VendingMachine.prototype.setInputMoney = function (inputMoney) {
-        this.inputMoney = inputMoney;
+    VendingMachine.prototype.setCurrentOwnMoney = function (currentOwnMoney) {
+        this.currentOwnMoney = currentOwnMoney;
+    };
+    VendingMachine.prototype.getPurchaseInputMoney = function () {
+        return this.purchaseInputMoney;
+    };
+    VendingMachine.prototype.setPurchaseInputMoney = function (purchaseInputMoney) {
+        this.purchaseInputMoney = purchaseInputMoney;
+    };
+    VendingMachine.prototype.getChange = function () {
+        return __assign({}, this.change);
+    };
+    VendingMachine.prototype.setChange = function (change) {
+        this.change = change;
     };
     VendingMachine.prototype.getTotalMoney = function (coins) {
         var totalMoney = 0;
@@ -1197,11 +1661,59 @@ var VendingMachine = /** @class */ (function () {
         });
         return newCoins;
     };
-    VendingMachine.prototype.chargeMoney = function (money) {
+    VendingMachine.prototype.chargeOwnMoney = function (money) {
         var newCoins = this.generateRandomCoins(money);
-        var newMoney = this.getInputMoney() + money;
+        var newMoney = this.getCurrentOwnMoney() + money;
         this.setCoins(newCoins);
-        this.setInputMoney(newMoney);
+        this.setCurrentOwnMoney(newMoney);
+    };
+    VendingMachine.prototype.chargePurchaseInputMoney = function (inputMoney) {
+        var newMoney = this.getPurchaseInputMoney() + inputMoney;
+        this.setPurchaseInputMoney(newMoney);
+    };
+    VendingMachine.prototype.giveChange = function () {
+        var purchaseMoney = this.getPurchaseInputMoney();
+        var ownMoney = this.getCurrentOwnMoney();
+        var coins = this.getCoins();
+        var change = this.getChange();
+        (0,_validates_validates__WEBPACK_IMPORTED_MODULE_2__.validateReturnChange)(purchaseMoney, ownMoney);
+        Object.keys(coins).forEach(function (key) {
+            var coinCount = Math.floor(purchaseMoney / _constants_constants__WEBPACK_IMPORTED_MODULE_0__.COINS[key]);
+            if (coins[key] < coinCount) {
+                coinCount = coins[key];
+            }
+            if (ownMoney >= coinCount * _constants_constants__WEBPACK_IMPORTED_MODULE_0__.COINS[key]) {
+                coins[key] -= coinCount;
+                change[key] = coinCount;
+                purchaseMoney -= coinCount * _constants_constants__WEBPACK_IMPORTED_MODULE_0__.COINS[key];
+                ownMoney -= coinCount * _constants_constants__WEBPACK_IMPORTED_MODULE_0__.COINS[key];
+            }
+        });
+        this.setCoins(coins);
+        this.setPurchaseInputMoney(purchaseMoney);
+        this.setChange(change);
+        this.setCurrentOwnMoney(ownMoney);
+    };
+    VendingMachine.prototype.buyItem = function (itemName) {
+        var _this = this;
+        var items = this.getItems();
+        var newItems = items.map(function (item) {
+            if (item.name === itemName) {
+                var newMoney = _this.getPurchaseInputMoney() - item.price;
+                if (item.quantity === 0) {
+                    throw new Error('구매할 수 있는 상품의 수량이 남아있지 않습니다.');
+                }
+                if (newMoney < 0) {
+                    throw new Error('투입된 금액이 부족합니다.');
+                }
+                item.quantity -= 1;
+                _this.setPurchaseInputMoney(newMoney);
+                _this.chargeOwnMoney(item.price);
+                return item;
+            }
+            return item;
+        });
+        this.setItems(newItems);
     };
     return VendingMachine;
 }());
@@ -1210,10 +1722,10 @@ var VendingMachine = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/js/views/AppView.ts":
-/*!*********************************!*\
-  !*** ./src/js/views/AppView.ts ***!
-  \*********************************/
+/***/ "./src/js/views/changeUserInfoView.ts":
+/*!********************************************!*\
+  !*** ./src/js/views/changeUserInfoView.ts ***!
+  \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -1221,40 +1733,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
-/* harmony import */ var _templates_initialTemplate__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../templates/initialTemplate */ "./src/js/templates/initialTemplate.ts");
-/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _templates_changeUserInfoTemplate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../templates/changeUserInfoTemplate */ "./src/js/templates/changeUserInfoTemplate.ts");
 
 
 
-var AppView = /** @class */ (function () {
-    function AppView() {
-        this.$app = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.ID.APP);
-        this.render();
-        this.bindEvents();
+var ChangeUserInfoView = /** @class */ (function () {
+    function ChangeUserInfoView() {
+        this.$content = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.ID.CONTENT);
     }
-    AppView.prototype.render = function () {
-        this.$app.insertAdjacentHTML('beforeend', _templates_initialTemplate__WEBPACK_IMPORTED_MODULE_1__.initialTemplate);
+    ChangeUserInfoView.prototype.handleSubmitChangeForm = function (event) {
+        try {
+            event.preventDefault();
+            var targetId = event.target.id;
+            var name_1 = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#change-name-input').value;
+            var password = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#change-password-input').value;
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('CHANGE_USER_INFO', { detail: { name: name_1, password: password, targetId: targetId } });
+        }
+        catch (error) {
+            alert(error.message);
+        }
     };
-    AppView.prototype.bindEvents = function () {
-        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.CLASS.NAV_CONTAINER).addEventListener('click', this.handleClickNavButton.bind(this));
+    ChangeUserInfoView.prototype.render = function (isLogin) {
+        var user = JSON.parse(sessionStorage.getItem('user'));
+        this.$content.replaceChildren();
+        this.$content.insertAdjacentHTML('beforeend', (0,_templates_changeUserInfoTemplate__WEBPACK_IMPORTED_MODULE_2__.changeUserInfoTemplate)(isLogin, user));
+        if (isLogin) {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#change-form').addEventListener('submit', this.handleSubmitChangeForm.bind(this));
+        }
     };
-    AppView.prototype.handleClickNavButton = function (event) {
-        var $navButton = event.target;
-        var targetButtonId = $navButton.id;
-        this.changeButtonColor(targetButtonId);
-        window.dispatchEvent(new CustomEvent(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.CUSTOM_EVENT.ROUTE_CHANGE, { detail: { $navButton: $navButton } }));
-    };
-    AppView.prototype.changeButtonColor = function (targetButtonId) {
-        var $navButtons = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$$)(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.CLASS.NAV_BUTTON);
-        $navButtons.forEach(function ($navButton) {
-            return $navButton.id === targetButtonId
-                ? $navButton.classList.add(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.CLASS_STRING.NAV_BUTTON_CLICKED)
-                : $navButton.classList.remove(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.CLASS_STRING.NAV_BUTTON_CLICKED);
-        });
-    };
-    return AppView;
+    return ChangeUserInfoView;
 }());
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AppView);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ChangeUserInfoView);
 
 
 /***/ }),
@@ -1284,36 +1794,156 @@ var ChargeMoneyView = /** @class */ (function () {
     ChargeMoneyView.prototype.bindEvents = function () {
         (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.ID.CHARGE_MONEY_FORM).addEventListener('submit', this.handleSubmitChargeMoney.bind(this));
     };
-    ChargeMoneyView.prototype.handleSubmitChargeMoney = function (event) {
+    ChargeMoneyView.prototype.handleSubmitChargeMoney = function () {
         try {
-            event.preventDefault();
             var inputMoney = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.CLASS.CHARGE_MONEY_INPUT).valueAsNumber;
-            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_2__.validateInputMoney)(inputMoney);
-            this.clearInput();
-            window.dispatchEvent(new CustomEvent(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.CUSTOM_EVENT.CHARGE_MONEY, { detail: { inputMoney: inputMoney } }));
+            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_2__.validateInputOwnMoney)(inputMoney);
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('CHARGE_MONEY', { detail: { inputMoney: inputMoney } });
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.showSnackBar)('잔돈이 충전되었습니다.');
         }
         catch (error) {
             alert(error.message);
         }
     };
-    ChargeMoneyView.prototype.render = function (coins, totalMoney) {
+    ChargeMoneyView.prototype.render = function (isLogin, coins, totalMoney) {
         this.$content.replaceChildren();
-        this.$content.insertAdjacentHTML('beforeend', (0,_templates_chareMoneyTemplate__WEBPACK_IMPORTED_MODULE_1__.chargeMoneyTemplate)(coins, totalMoney));
-        this.bindEvents();
-    };
-    ChargeMoneyView.prototype.clearInput = function () {
-        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.CLASS.CHARGE_MONEY_INPUT).value = '';
-    };
-    ChargeMoneyView.prototype.repaintCurrentMoney = function (money) {
-        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.ID.CURRENT_MONEY).textContent = money;
+        this.$content.insertAdjacentHTML('beforeend', (0,_templates_chareMoneyTemplate__WEBPACK_IMPORTED_MODULE_1__.chargeMoneyTemplate)(isLogin, coins, totalMoney));
+        if (isLogin) {
+            this.bindEvents();
+        }
     };
     ChargeMoneyView.prototype.repaintCoinsTable = function (coins) {
         (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.CLASS.COIN_TABLE).replaceChildren();
         (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.CLASS.COIN_TABLE).insertAdjacentHTML('beforeend', _templates_chareMoneyTemplate__WEBPACK_IMPORTED_MODULE_1__.sectionTemplate.coinTableContent(coins));
     };
+    ChargeMoneyView.prototype.clearInput = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.CLASS.CHARGE_MONEY_INPUT).value = '';
+    };
     return ChargeMoneyView;
 }());
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ChargeMoneyView);
+
+
+/***/ }),
+
+/***/ "./src/js/views/logInView.ts":
+/*!***********************************!*\
+  !*** ./src/js/views/logInView.ts ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _templates_logInTemplate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../templates/logInTemplate */ "./src/js/templates/logInTemplate.ts");
+/* harmony import */ var _validates_validates__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../validates/validates */ "./src/js/validates/validates.ts");
+
+
+
+
+var LogInView = /** @class */ (function () {
+    function LogInView() {
+        this.$content = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.ID.CONTENT);
+    }
+    LogInView.prototype.handleSubmitLogInForm = function (event) {
+        try {
+            event.preventDefault();
+            var targetId = event.target.id;
+            var email = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#login-email-input').value;
+            var password = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#login-password-input').value;
+            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_3__.checkPassword)(password);
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('LOG_IN', { detail: { email: email, password: password, targetId: targetId } });
+        }
+        catch (error) {
+            alert(error.message);
+        }
+    };
+    LogInView.prototype.handleClickGotoSignUpButton = function (event) {
+        var targetId = event.target.id;
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('ROUTE_CHANGE', { detail: { targetId: targetId } });
+    };
+    LogInView.prototype.render = function (isLogin) {
+        this.$content.replaceChildren();
+        this.$content.insertAdjacentHTML('beforeend', (0,_templates_logInTemplate__WEBPACK_IMPORTED_MODULE_2__.logInTemplate)(isLogin));
+        if (!isLogin) {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#login-form').addEventListener('submit', this.handleSubmitLogInForm.bind(this));
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#go-to-signup').addEventListener('click', this.handleClickGotoSignUpButton);
+        }
+    };
+    return LogInView;
+}());
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LogInView);
+
+
+/***/ }),
+
+/***/ "./src/js/views/mainView.ts":
+/*!**********************************!*\
+  !*** ./src/js/views/mainView.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _templates_initialTemplate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../templates/initialTemplate */ "./src/js/templates/initialTemplate.ts");
+
+
+
+var MainView = /** @class */ (function () {
+    function MainView() {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.CLASS.NAV_CONTAINER).addEventListener('click', this.handleClickNavButton.bind(this));
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#header-button-container').addEventListener('click', this.handleClickLoginButton);
+    }
+    MainView.prototype.handleClickNavButton = function (event) {
+        var targetId = event.target.id;
+        this.changeButtonColor(targetId);
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('ROUTE_CHANGE', { detail: { targetId: targetId } });
+    };
+    MainView.prototype.handleClickLoginButton = function (event) {
+        var targetId = event.target.id;
+        if (targetId === 'login-button') {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('ROUTE_CHANGE', { detail: { targetId: targetId } });
+        }
+        if (targetId === 'user-badge') {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#user-dropbox').classList.toggle('display-none');
+        }
+        if (targetId === 'user-name') {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#user-dropbox').classList.toggle('display-none');
+        }
+        if (targetId === 'change-user-info') {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('ROUTE_CHANGE', { detail: { targetId: targetId } });
+        }
+        if (targetId === 'logout') {
+            if (window.confirm('로그아웃하시겠습니까?')) {
+                sessionStorage.removeItem('jwt-token');
+                sessionStorage.removeItem('isLogIn');
+                sessionStorage.removeItem('user');
+                (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('ROUTE_CHANGE', { detail: { targetId: targetId } });
+            }
+        }
+    };
+    MainView.prototype.changeButtonColor = function (targetButtonId) {
+        var $navButtons = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.CLASS.NAV_BUTTON);
+        $navButtons.forEach(function ($navButton) {
+            return $navButton.id === targetButtonId
+                ? $navButton.classList.add(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.CLASS_STRING.NAV_BUTTON_CLICKED)
+                : $navButton.classList.remove(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.CLASS_STRING.NAV_BUTTON_CLICKED);
+        });
+    };
+    MainView.prototype.render = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.ID.APP).replaceChildren();
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.ID.APP).insertAdjacentHTML('beforeend', _templates_initialTemplate__WEBPACK_IMPORTED_MODULE_2__.initialTemplate);
+    };
+    return MainView;
+}());
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MainView);
 
 
 /***/ }),
@@ -1373,6 +2003,7 @@ var ManageItemView = /** @class */ (function () {
             if (window.confirm(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.CONFIRM_MESSAGE.DELETE)) {
                 _this.handleTableItemDelete(item);
                 $targetTableRow.remove();
+                (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.showSnackBar)('상품이 삭제되었습니다.');
             }
         });
     };
@@ -1399,26 +2030,28 @@ var ManageItemView = /** @class */ (function () {
             var addItemQuantity = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.ID.ADD_ITEM_QUANTITY).valueAsNumber;
             var item = { name: addItemName, price: addItemPrice, quantity: addItemQuantity };
             (0,_validates_validates__WEBPACK_IMPORTED_MODULE_2__.validateAddItemInput)(item);
-            window.dispatchEvent(new CustomEvent(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.CUSTOM_EVENT.ADD_ITEM, { detail: item }));
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('ADD_ITEM', { detail: item });
         }
         catch (error) {
             alert(error.message);
         }
     };
     ManageItemView.prototype.handleTableItemChange = function (item, targetRowIndex, $targetTableRow) {
-        window.dispatchEvent(new CustomEvent(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.CUSTOM_EVENT.TABLE_ITEM_CHANGE, {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('TABLE_ITEM_CHANGE', {
             detail: { item: item, targetRowIndex: targetRowIndex, $targetTableRow: $targetTableRow }
-        }));
+        });
     };
     ManageItemView.prototype.handleTableItemDelete = function (item) {
-        window.dispatchEvent(new CustomEvent(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.CUSTOM_EVENT.TABLE_ITEM_DELETE, { detail: { item: item } }));
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('TABLE_ITEM_DELETE', { detail: { item: item } });
     };
-    ManageItemView.prototype.render = function (items) {
+    ManageItemView.prototype.render = function (isLogin, items) {
         this.$content.replaceChildren();
-        this.$content.insertAdjacentHTML('beforeend', (0,_templates_manageItemTemplate__WEBPACK_IMPORTED_MODULE_1__.manageItemTemplate)(items));
-        this.bindSubmitEvent();
-        this.bindChangeClickEvents();
-        this.bindDeleteClickEvents();
+        this.$content.insertAdjacentHTML('beforeend', (0,_templates_manageItemTemplate__WEBPACK_IMPORTED_MODULE_1__.manageItemTemplate)(isLogin, items));
+        if (isLogin) {
+            this.bindSubmitEvent();
+            this.bindChangeClickEvents();
+            this.bindDeleteClickEvents();
+        }
     };
     ManageItemView.prototype.repaintItemTable = function (items) {
         (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_3__.SELECTOR.CLASS.TABLE_CONTAINER).remove();
@@ -1474,6 +2107,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
 /* harmony import */ var _templates_purchaseItemTemplate__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../templates/purchaseItemTemplate */ "./src/js/templates/purchaseItemTemplate.ts");
 /* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _validates_validates__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../validates/validates */ "./src/js/validates/validates.ts");
+
+
 
 
 
@@ -1481,13 +2117,100 @@ var PurchaseItemView = /** @class */ (function () {
     function PurchaseItemView() {
         this.$content = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.ID.CONTENT);
     }
+    PurchaseItemView.prototype.bindSubmitEvent = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#purchase-item-form').addEventListener('submit', this.handleSubmitPurchaseMoneyInput.bind(this));
+    };
+    PurchaseItemView.prototype.bindPurchaseClickEvents = function () {
+        var _this = this;
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$$)('.item-table-purchase-button').forEach(function (button) { return _this.bindTargetPurchaseClick(button); });
+    };
+    PurchaseItemView.prototype.bindTargetPurchaseClick = function (button) {
+        button.addEventListener('click', function () {
+            var $targetTableRow = button.closest('tr');
+            var itemName = $targetTableRow
+                .getElementsByClassName(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.CLASS_STRING.TABLE_ITEM_INPUT_NAME)[0]
+                .textContent.trim();
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('PURCHASE_ITEM', { detail: { itemName: itemName } });
+        });
+    };
+    PurchaseItemView.prototype.bindReturnMoneyClickEvent = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('.return-money-button').addEventListener('click', this.handleClickReturnMoneyButton.bind(this));
+    };
+    PurchaseItemView.prototype.handleSubmitPurchaseMoneyInput = function () {
+        try {
+            var inputMoney = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_2__.SELECTOR.CLASS.PURCHASE_ITEM_INPUT).valueAsNumber;
+            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_3__.validateInputPurchaseMoney)(inputMoney);
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('PURCHASE_MONEY_INPUT', { detail: { inputMoney: inputMoney } });
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.showSnackBar)('금액을 투입하였습니다.');
+        }
+        catch (error) {
+            alert(error.message);
+        }
+    };
+    PurchaseItemView.prototype.handleClickReturnMoneyButton = function () {
+        (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('RETURN_MONEY');
+    };
     PurchaseItemView.prototype.render = function (items, coins, inputMoney) {
         this.$content.replaceChildren();
         this.$content.insertAdjacentHTML('beforeend', (0,_templates_purchaseItemTemplate__WEBPACK_IMPORTED_MODULE_1__.purchaseItemTemplate)(items, coins, inputMoney));
+        this.bindSubmitEvent();
+        this.bindPurchaseClickEvents();
+        this.bindReturnMoneyClickEvent();
     };
     return PurchaseItemView;
 }());
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PurchaseItemView);
+
+
+/***/ }),
+
+/***/ "./src/js/views/signUpView.ts":
+/*!************************************!*\
+  !*** ./src/js/views/signUpView.ts ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _utils_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/common */ "./src/js/utils/common.ts");
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants/constants */ "./src/js/constants/constants.ts");
+/* harmony import */ var _templates_signUpTemplate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../templates/signUpTemplate */ "./src/js/templates/signUpTemplate.ts");
+/* harmony import */ var _validates_validates__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../validates/validates */ "./src/js/validates/validates.ts");
+
+
+
+
+var SignUpView = /** @class */ (function () {
+    function SignUpView() {
+        this.$content = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)(_constants_constants__WEBPACK_IMPORTED_MODULE_1__.SELECTOR.ID.CONTENT);
+    }
+    SignUpView.prototype.handleSubmitSignUpForm = function (event) {
+        try {
+            event.preventDefault();
+            var targetId = event.target.id;
+            var email = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#signup-email-input').value.trim();
+            var name_1 = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#signup-name-input').value.trim();
+            var password = (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#signup-password-input').value;
+            (0,_validates_validates__WEBPACK_IMPORTED_MODULE_3__.checkPassword)(password);
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.emitCustomEvent)('SIGN_UP', { detail: { email: email, name: name_1, password: password, targetId: targetId } });
+        }
+        catch (error) {
+            alert(error.message);
+        }
+    };
+    SignUpView.prototype.render = function (isLogin) {
+        console.log('SignUpView Render');
+        this.$content.replaceChildren();
+        this.$content.insertAdjacentHTML('beforeend', (0,_templates_signUpTemplate__WEBPACK_IMPORTED_MODULE_2__.signUpTemplate)(isLogin));
+        if (!isLogin) {
+            (0,_utils_common__WEBPACK_IMPORTED_MODULE_0__.$)('#signup-form').addEventListener('submit', this.handleSubmitSignUpForm.bind(this));
+        }
+    };
+    return SignUpView;
+}());
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SignUpView);
 
 
 /***/ })
@@ -1568,11 +2291,10 @@ var __webpack_exports__ = {};
   \*************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/index.css */ "./src/css/index.css");
-/* harmony import */ var _controllers_AppController__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./controllers/AppController */ "./src/js/controllers/AppController.ts");
+/* harmony import */ var _AppManager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AppManager */ "./src/js/AppManager.ts");
 
 
-var appController = new _controllers_AppController__WEBPACK_IMPORTED_MODULE_1__["default"]();
-appController.route();
+new _AppManager__WEBPACK_IMPORTED_MODULE_1__["default"]();
 
 })();
 
