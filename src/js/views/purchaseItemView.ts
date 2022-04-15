@@ -49,7 +49,6 @@ export default class PurchaseItemView {
 
       validateInputPurchaseMoney(inputMoney);
       emitCustomEvent('PURCHASE_MONEY_INPUT', { detail: { inputMoney } });
-      showSnackBar(SNACK_BAR_MESSAGE.MONEY_INPUT);
     } catch (error) {
       alert(error.message);
     }
